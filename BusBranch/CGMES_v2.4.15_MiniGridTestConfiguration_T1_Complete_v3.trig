@@ -1,0 +1,2930 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix md: <http://iec.ch/TC57/61970-552/ModelDescription/1#> .
+@prefix cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#> .
+
+<urn:uuid:2e99cbd2-9a39-11e0-aa80-0800200c9a66> {
+	<urn:uuid:2e99cbd2-9a39-11e0-aa80-0800200c9a66> md:Model.scenarioTime "2030-01-02T09:00:00" ;
+		md:Model.created "2015-02-05T12:20:50.830" ;
+		md:Model.description "CGMES Conformity Assessment: Mini Grid Type 1 Test Configuration. The model is owned by ENTSO-E and is provided by ENTSO-E \"as it is\". To the fullest extent permitted by law, ENTSO-E shall not be liable for any damages of any kind arising out of the use of the model (including any of its subsequent modifications). ENTSO-E neither warrants, nor represents that the use of the model will not infringe the rights of third parties. Any use of the model shall include a reference to ENTSO-E. ENTSO-E web site is the only official source of information related to the model." ;
+		md:Model.version "4" ;
+		md:Model.profile "http://entsoe.eu/CIM/EquipmentCore/3/1" , "http://entsoe.eu/CIM/EquipmentShortCircuit/3/1" ;
+		md:Model.modelingAuthoritySet "http://A1.de/Planning/ENTSOE/2" ;
+		md:Model.Supersedes <urn:uuid:2399cbd2-9a39-11e0-aa80-0800200c9a66_EU> ;
+		md:Model.DependentOn <urn:uuid:2399cbd0-9a39-11e0-aa80-0800200c9a66> .
+	<urn:uuid:8372a156-7579-4ea5-8793-24caf0d24603> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L5_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:1e7f52a9-21d0-4ebe-9a8a-b29281d5bfc9> .
+	<urn:uuid:5042af3b-8c3a-4548-b2fa-a8d655f94402> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L5_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:1e7f52a9-21d0-4ebe-9a8a-b29281d5bfc9> .
+	<urn:uuid:5492183a-1e6f-4dee-a506-f389c69f4c83> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L6_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:56757c2b-550e-4843-886a-ed193f6eb21e> .
+	<urn:uuid:3d6a6b41-0ff8-418a-9530-94c6752b2db0> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L6_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:56757c2b-550e-4843-886a-ed193f6eb21e> .
+	<urn:uuid:1a6456c6-fb39-42a0-b21d-089093ba7c49> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L4_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:e95a6228-ceac-4f0a-8b52-d35367b364dc> .
+	<urn:uuid:d7f0a22b-afbc-41d2-b919-8fde5d1c5045> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L4_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:e95a6228-ceac-4f0a-8b52-d35367b364dc> .
+	<urn:uuid:933078aa-6687-4922-bb1f-4c1457f7c26f> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L1_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:d5d1cc4a-6297-4386-b6ce-16dc26f15feb> .
+	<urn:uuid:863647cc-d576-484a-bde3-e8998f9f021a> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L1_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:d5d1cc4a-6297-4386-b6ce-16dc26f15feb> .
+	<urn:uuid:563c5f79-a51d-4ce8-a921-0e86dd984bb5> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L2_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:efdd7f46-67e6-46e3-9dcd-a3b6f8c613a4> .
+	<urn:uuid:706707e5-019e-4549-b981-a857f1dfa611> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L2_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:efdd7f46-67e6-46e3-9dcd-a3b6f8c613a4> .
+	<urn:uuid:0593fd2d-7e55-4a8d-8ddf-4f8a576cf26c> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L3_a_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:35df6abe-3087-4c27-a90a-12b5065333f3> .
+	<urn:uuid:89df2b1b-9107-45a8-95ae-16afa04d99b3> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L3_a_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:35df6abe-3087-4c27-a90a-12b5065333f3> .
+	<urn:uuid:616ef15c-065f-4ca2-8367-d1aad079357e> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L3_b_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:05597934-b248-491e-803a-68ce6290f502> .
+	<urn:uuid:c39420a7-76ad-4bcc-afdf-da398485bf28> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "L3_b_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:05597934-b248-491e-803a-68ce6290f502> .
+	<urn:uuid:51ac3672-026d-4257-9c68-7c7f57a9b55e> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T5_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:ceb5d06a-a7ff-4102-a620-7f3ea5fb4a51> .
+	<urn:uuid:0fa430b4-d98c-43bd-9652-f61fb00e7340> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T5_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:ceb5d06a-a7ff-4102-a620-7f3ea5fb4a51> .
+	<urn:uuid:7145f995-b4a7-472e-9c58-2f8540ad3925> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T6_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:6c89588b-3df5-4120-88e5-26164afb43e9> .
+	<urn:uuid:912cc25e-78d9-43a6-a77e-b2b7bb76688b> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T6_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:6c89588b-3df5-4120-88e5-26164afb43e9> .
+	<urn:uuid:a1158b5f-3b71-4c44-8b15-4150d983f73e> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T2_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:f1e72854-ec35-46e9-b614-27db354e8dbb> .
+	<urn:uuid:b2112f10-1057-4a28-a18d-a1952c791c4c> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T2_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:f1e72854-ec35-46e9-b614-27db354e8dbb> .
+	<urn:uuid:7fe566b9-6bac-4cd3-8b52-8f46e9ba237d> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T1_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:813365c3-5be7-4ef0-a0a7-abd1ae6dc174> .
+	<urn:uuid:82611054-72b9-4cb0-8621-e418b8962cb1> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T1_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:813365c3-5be7-4ef0-a0a7-abd1ae6dc174> .
+	<urn:uuid:eb8ed3e6-c0de-47e2-9dd5-52b321d51b70> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T4_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:411b5401-0a43-404a-acb4-05c3d7d0c95c> .
+	<urn:uuid:e59d3a8c-8382-413a-95ae-6354dfe85565> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T4_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:411b5401-0a43-404a-acb4-05c3d7d0c95c> .
+	<urn:uuid:5af3b857-165c-4f96-b415-0d6e2e9ca27f> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T4_2" ;
+		cim:ACDCTerminal.sequenceNumber "3" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:411b5401-0a43-404a-acb4-05c3d7d0c95c> .
+	<urn:uuid:1dfffea9-1fac-48f1-b466-1312643f3a47> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T3_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:5d38b7ed-73fd-405a-9cdb-78425e003773> .
+	<urn:uuid:d5b02a21-e6f5-441c-81f2-4accb1a56ddd> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T3_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:5d38b7ed-73fd-405a-9cdb-78425e003773> .
+	<urn:uuid:01a240e9-5607-4844-9d53-5c8b08b5c9a8> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "T3_2" ;
+		cim:ACDCTerminal.sequenceNumber "3" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:5d38b7ed-73fd-405a-9cdb-78425e003773> .
+	<urn:uuid:4dec53ca-3ea6-4bd0-a225-b559c8293e91> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "G2_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:2970a2b7-b840-4e9c-b405-0cb854cd2318> .
+	<urn:uuid:3434b50d-677d-4ad5-96d7-6c7d1be611e6> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "G1_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:ca67be42-750e-4ebf-bfaa-24d446e59a22> .
+	<urn:uuid:9165ded7-ec43-469a-b006-554d388a63ec> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "G3_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:392ea173-4f8e-48fa-b2a3-5c3721e93196> .
+	<urn:uuid:e3420c0c-d6fc-49ee-9447-74c8e1eba64e> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "M1_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:062ece1f-ade5-4d20-9c3a-fd8f12d12ec1> .
+	<urn:uuid:2e6ef544-c98e-44ec-a8de-8c44d2cccc33> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "M2_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:ba62884d-8800-41a8-9c26-698297d7ebaa> .
+	<urn:uuid:6cd98e8c-ede7-46b1-aa01-7f9f7db26416> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "ASM-1229750300_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:f184d87b-5565-45ee-89b4-29e8a42d3ad1> .
+	<urn:uuid:2fa56ee8-8afb-4db2-8fcf-89b9fa135bca> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "Q1_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:089c1945-4101-487f-a557-66c013b748f6> .
+	<urn:uuid:07865469-d39d-4234-8cee-fa998fa49bed> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "Q2_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:3de9e1ad-4562-44df-b268-70ed0517e9e7> .
+	<urn:uuid:ed2bd589-b6d9-42bd-82fc-0b895e8707b1> rdf:type cim:BaseVoltage ;
+		cim:IdentifiedObject.name "380kV" ;
+		cim:BaseVoltage.nominalVoltage "380" .
+	<urn:uuid:e6b5f155-583d-46fa-90fc-0673d1afe1be> rdf:type cim:BaseVoltage ;
+		cim:IdentifiedObject.name "21kV" ;
+		cim:BaseVoltage.nominalVoltage "21" .
+	<urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> rdf:type cim:BaseVoltage ;
+		cim:IdentifiedObject.name "10kV" ;
+		cim:BaseVoltage.nominalVoltage "10" .
+	<urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> rdf:type cim:BaseVoltage ;
+		cim:IdentifiedObject.name "110kV" ;
+		cim:BaseVoltage.nominalVoltage "110" .
+	<urn:uuid:b2a3e748-1772-409d-a61f-1d6da09564c9> rdf:type cim:BaseVoltage ;
+		cim:IdentifiedObject.name "30kV" ;
+		cim:BaseVoltage.nominalVoltage "30" .
+	<urn:uuid:b2707f00-2554-41d2-bde2-7dd80a669e50> rdf:type cim:VoltageLevel ;
+		cim:IdentifiedObject.name "S2 10kV" ;
+		cim:VoltageLevel.Substation <urn:uuid:3f64f4e2-adfe-4d12-b082-68e7fe4b11c9> ;
+		cim:VoltageLevel.BaseVoltage <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> .
+	<urn:uuid:8d4a8238-5b31-4c16-8692-0265dae5e132> rdf:type cim:VoltageLevel ;
+		cim:IdentifiedObject.name "S5 10kV" ;
+		cim:VoltageLevel.Substation <urn:uuid:b3e5b4de-b74d-43b4-8db9-784302a12acf> ;
+		cim:VoltageLevel.BaseVoltage <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> .
+	<urn:uuid:0d68ac81-124d-4d21-afa8-6c503feef5b8> rdf:type cim:VoltageLevel ;
+		cim:IdentifiedObject.name "S4 10kV" ;
+		cim:VoltageLevel.Substation <urn:uuid:d6056127-34f1-43a9-b029-23fddb913bd5> ;
+		cim:VoltageLevel.BaseVoltage <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> .
+	<urn:uuid:6f8ef715-bc0a-47d7-a74e-27f17234f590> rdf:type cim:VoltageLevel ;
+		cim:IdentifiedObject.name "S3 21kV" ;
+		cim:VoltageLevel.Substation <urn:uuid:974565b1-ac55-4901-9f48-afc7ef5486df> ;
+		cim:VoltageLevel.BaseVoltage <urn:uuid:e6b5f155-583d-46fa-90fc-0673d1afe1be> .
+	<urn:uuid:347fb7af-642f-4c60-97d9-c03d440b6a82> rdf:type cim:VoltageLevel ;
+		cim:IdentifiedObject.name "S2 110kV" ;
+		cim:VoltageLevel.Substation <urn:uuid:3f64f4e2-adfe-4d12-b082-68e7fe4b11c9> ;
+		cim:VoltageLevel.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> .
+	<urn:uuid:051b93ae-9c15-4490-8cea-33395298f031> rdf:type cim:VoltageLevel ;
+		cim:IdentifiedObject.name "S3 110kV" ;
+		cim:VoltageLevel.Substation <urn:uuid:974565b1-ac55-4901-9f48-afc7ef5486df> ;
+		cim:VoltageLevel.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> .
+	<urn:uuid:5d9d9d87-ce6b-4213-b4ec-d50de9790a59> rdf:type cim:VoltageLevel ;
+		cim:IdentifiedObject.name "S1 380kV" ;
+		cim:VoltageLevel.Substation <urn:uuid:af9a4ae3-ba2e-4c34-8e47-5af894ee20f4> ;
+		cim:VoltageLevel.BaseVoltage <urn:uuid:ed2bd589-b6d9-42bd-82fc-0b895e8707b1> .
+	<urn:uuid:93778e52-3fd5-456d-8b10-987c3e6bc47e> rdf:type cim:VoltageLevel ;
+		cim:IdentifiedObject.name "S1 30kV" ;
+		cim:VoltageLevel.Substation <urn:uuid:af9a4ae3-ba2e-4c34-8e47-5af894ee20f4> ;
+		cim:VoltageLevel.BaseVoltage <urn:uuid:b2a3e748-1772-409d-a61f-1d6da09564c9> .
+	<urn:uuid:a43d15db-44a6-4fda-a525-2402ff43226f> rdf:type cim:VoltageLevel ;
+		cim:IdentifiedObject.name "S4 110kV" ;
+		cim:VoltageLevel.Substation <urn:uuid:d6056127-34f1-43a9-b029-23fddb913bd5> ;
+		cim:VoltageLevel.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> .
+	<urn:uuid:cd28a27e-8b17-4f23-b9f5-03b6de15203f> rdf:type cim:VoltageLevel ;
+		cim:IdentifiedObject.name "S1 110kV" ;
+		cim:VoltageLevel.Substation <urn:uuid:af9a4ae3-ba2e-4c34-8e47-5af894ee20f4> ;
+		cim:VoltageLevel.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> .
+	<urn:uuid:af9a4ae3-ba2e-4c34-8e47-5af894ee20f4> rdf:type cim:Substation ;
+		cim:IdentifiedObject.name "Sub1" ;
+		cim:Substation.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:3f64f4e2-adfe-4d12-b082-68e7fe4b11c9> rdf:type cim:Substation ;
+		cim:IdentifiedObject.name "Sub2" ;
+		cim:Substation.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:974565b1-ac55-4901-9f48-afc7ef5486df> rdf:type cim:Substation ;
+		cim:IdentifiedObject.name "Sub3" ;
+		cim:Substation.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:d6056127-34f1-43a9-b029-23fddb913bd5> rdf:type cim:Substation ;
+		cim:IdentifiedObject.name "Sub4" ;
+		cim:Substation.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:b3e5b4de-b74d-43b4-8db9-784302a12acf> rdf:type cim:Substation ;
+		cim:IdentifiedObject.name "Sub5" ;
+		cim:Substation.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:11e42ac4-6168-4f6f-8da7-6f06616738eb> rdf:type cim:GeographicalRegion ;
+		cim:IdentifiedObject.name "AA" .
+	<urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> rdf:type cim:SubGeographicalRegion ;
+		cim:IdentifiedObject.name "Z1" ;
+		cim:SubGeographicalRegion.Region <urn:uuid:11e42ac4-6168-4f6f-8da7-6f06616738eb> .
+	<urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> rdf:type cim:OperationalLimitType ;
+		cim:IdentifiedObject.name "PATL" ;
+		cim:OperationalLimitType.acceptableDuration "45000" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#OperationalLimitType.limitType> "patl" ;
+		cim:OperationalLimitType.direction "absoluteValue" .
+	<urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> rdf:type cim:OperationalLimitType ;
+		cim:IdentifiedObject.name "TATL" ;
+		cim:OperationalLimitType.acceptableDuration "900" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#OperationalLimitType.limitType> "tatl" ;
+		cim:OperationalLimitType.direction "absoluteValue" .
+	<urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> rdf:type cim:OperationalLimitType ;
+		cim:IdentifiedObject.name "TATL" ;
+		cim:OperationalLimitType.acceptableDuration "60" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#OperationalLimitType.limitType> "tatl" ;
+		cim:OperationalLimitType.direction "absoluteValue" .
+	<urn:uuid:93346fba-8a54-4969-a063-50e4a037e1f2> rdf:type cim:ThermalGeneratingUnit ;
+		cim:IdentifiedObject.description "Gen-1" ;
+		cim:IdentifiedObject.name "G2" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:3f64f4e2-adfe-4d12-b082-68e7fe4b11c9> ;
+		cim:GeneratingUnit.initialP "0" ;
+		cim:GeneratingUnit.maxOperatingP "127.5" ;
+		cim:GeneratingUnit.minOperatingP "0" .
+	<urn:uuid:2970a2b7-b840-4e9c-b405-0cb854cd2318> rdf:type cim:SynchronousMachine ;
+		cim:IdentifiedObject.name "G2" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:b2707f00-2554-41d2-bde2-7dd80a669e50> ;
+		cim:RegulatingCondEq.RegulatingControl <urn:uuid:10d33824-507a-4999-bd51-f73373e7509a> ;
+		cim:RotatingMachine.ratedPowerFactor "0.9" ;
+		cim:RotatingMachine.ratedS "100" ;
+		cim:RotatingMachine.ratedU "10.5" ;
+		cim:RotatingMachine.GeneratingUnit <urn:uuid:93346fba-8a54-4969-a063-50e4a037e1f2> ;
+		cim:SynchronousMachine.earthing "false" ;
+		cim:SynchronousMachine.maxQ "43.6" ;
+		cim:SynchronousMachine.minQ "-43.6" ;
+		cim:SynchronousMachine.qPercent "100" ;
+		cim:SynchronousMachine.r0 "0" ;
+		cim:SynchronousMachine.r2 "0.004535" ;
+		cim:SynchronousMachine.satDirectSubtransX "0.16" ;
+		cim:SynchronousMachine.satDirectSyncX "2" ;
+		cim:SynchronousMachine.satDirectTransX "2" ;
+		cim:SynchronousMachine.shortCircuitRotorType "turboSeries1" ;
+		cim:SynchronousMachine.type "generator" ;
+		cim:SynchronousMachine.voltageRegulationRange "7.5" ;
+		cim:SynchronousMachine.r "0.005" ;
+		cim:SynchronousMachine.x0 "0.1" ;
+		cim:SynchronousMachine.x2 "0.16" .
+	<urn:uuid:a318334b-6a8d-40cd-9ce2-4526873d5504> rdf:type cim:ThermalGeneratingUnit ;
+		cim:IdentifiedObject.description "Gen-2" ;
+		cim:IdentifiedObject.name "G1" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:974565b1-ac55-4901-9f48-afc7ef5486df> ;
+		cim:GeneratingUnit.initialP "0" ;
+		cim:GeneratingUnit.maxOperatingP "90" ;
+		cim:GeneratingUnit.minOperatingP "0" .
+	<urn:uuid:ca67be42-750e-4ebf-bfaa-24d446e59a22> rdf:type cim:SynchronousMachine ;
+		cim:IdentifiedObject.name "G1" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:6f8ef715-bc0a-47d7-a74e-27f17234f590> ;
+		cim:RotatingMachine.ratedPowerFactor "0.85" ;
+		cim:RotatingMachine.ratedS "150" ;
+		cim:RotatingMachine.ratedU "21" ;
+		cim:RotatingMachine.GeneratingUnit <urn:uuid:a318334b-6a8d-40cd-9ce2-4526873d5504> ;
+		cim:SynchronousMachine.earthing "false" ;
+		cim:SynchronousMachine.maxQ "79" ;
+		cim:SynchronousMachine.minQ "-79" ;
+		cim:SynchronousMachine.qPercent "100" ;
+		cim:SynchronousMachine.r0 "0" ;
+		cim:SynchronousMachine.r2 "0.00068" ;
+		cim:SynchronousMachine.satDirectSubtransX "0.14" ;
+		cim:SynchronousMachine.satDirectSyncX "1.8" ;
+		cim:SynchronousMachine.satDirectTransX "1.8" ;
+		cim:SynchronousMachine.shortCircuitRotorType "turboSeries1" ;
+		cim:SynchronousMachine.type "generator" ;
+		cim:SynchronousMachine.r "0.002" ;
+		cim:SynchronousMachine.x0 "0.1" ;
+		cim:SynchronousMachine.x2 "0.14" .
+	<urn:uuid:f1001dea-bb33-4f34-9508-d492af527d35> rdf:type cim:ThermalGeneratingUnit ;
+		cim:IdentifiedObject.description "Gen-3" ;
+		cim:IdentifiedObject.name "G3" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:d6056127-34f1-43a9-b029-23fddb913bd5> ;
+		cim:GeneratingUnit.initialP "0" ;
+		cim:GeneratingUnit.maxOperatingP "8" ;
+		cim:GeneratingUnit.minOperatingP "0" .
+	<urn:uuid:392ea173-4f8e-48fa-b2a3-5c3721e93196> rdf:type cim:SynchronousMachine ;
+		cim:IdentifiedObject.name "G3" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:0d68ac81-124d-4d21-afa8-6c503feef5b8> ;
+		cim:RotatingMachine.ratedPowerFactor "0.8" ;
+		cim:RotatingMachine.ratedS "10" ;
+		cim:RotatingMachine.ratedU "10.5" ;
+		cim:RotatingMachine.GeneratingUnit <urn:uuid:f1001dea-bb33-4f34-9508-d492af527d35> ;
+		cim:SynchronousMachine.earthing "false" ;
+		cim:SynchronousMachine.maxQ "6" ;
+		cim:SynchronousMachine.minQ "-6" ;
+		cim:SynchronousMachine.qPercent "100" ;
+		cim:SynchronousMachine.r0 "0" ;
+		cim:SynchronousMachine.r2 "0.00163" ;
+		cim:SynchronousMachine.satDirectSubtransX "0.1" ;
+		cim:SynchronousMachine.satDirectSyncX "1.8" ;
+		cim:SynchronousMachine.satDirectTransX "1.8" ;
+		cim:SynchronousMachine.shortCircuitRotorType "turboSeries1" ;
+		cim:SynchronousMachine.type "generator" ;
+		cim:SynchronousMachine.r "0.018" ;
+		cim:SynchronousMachine.x0 "0.08" ;
+		cim:SynchronousMachine.x2 "0.1" .
+	<urn:uuid:062ece1f-ade5-4d20-9c3a-fd8f12d12ec1> rdf:type cim:AsynchronousMachine ;
+		cim:IdentifiedObject.name "M3" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:8d4a8238-5b31-4c16-8692-0265dae5e132> ;
+		cim:RotatingMachine.ratedPowerFactor "0.88" ;
+		cim:RotatingMachine.ratedS "5.828" ;
+		cim:RotatingMachine.ratedU "10" ;
+		cim:AsynchronousMachine.converterFedDrive "false" ;
+		cim:AsynchronousMachine.efficiency "97.5" ;
+		cim:AsynchronousMachine.iaIrRatio "5" ;
+		cim:AsynchronousMachine.polePairNumber "1" ;
+		cim:AsynchronousMachine.ratedMechanicalPower "5" ;
+		cim:AsynchronousMachine.reversible "false" ;
+		cim:AsynchronousMachine.rxLockedRotorRatio "0.1" .
+	<urn:uuid:ba62884d-8800-41a8-9c26-698297d7ebaa> rdf:type cim:AsynchronousMachine ;
+		cim:IdentifiedObject.name "M2a" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:8d4a8238-5b31-4c16-8692-0265dae5e132> ;
+		cim:RotatingMachine.ratedPowerFactor "0.89" ;
+		cim:RotatingMachine.ratedS "2.321" ;
+		cim:RotatingMachine.ratedU "10" ;
+		cim:AsynchronousMachine.converterFedDrive "false" ;
+		cim:AsynchronousMachine.efficiency "96.8" ;
+		cim:AsynchronousMachine.iaIrRatio "5.2" ;
+		cim:AsynchronousMachine.polePairNumber "2" ;
+		cim:AsynchronousMachine.ratedMechanicalPower "2" ;
+		cim:AsynchronousMachine.reversible "false" ;
+		cim:AsynchronousMachine.rxLockedRotorRatio "0.1" .
+	<urn:uuid:f184d87b-5565-45ee-89b4-29e8a42d3ad1> rdf:type cim:AsynchronousMachine ;
+		cim:IdentifiedObject.name "M2b" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:8d4a8238-5b31-4c16-8692-0265dae5e132> ;
+		cim:RotatingMachine.ratedPowerFactor "0.89" ;
+		cim:RotatingMachine.ratedS "2.321" ;
+		cim:RotatingMachine.ratedU "10" ;
+		cim:AsynchronousMachine.converterFedDrive "false" ;
+		cim:AsynchronousMachine.efficiency "96.8" ;
+		cim:AsynchronousMachine.iaIrRatio "5.2" ;
+		cim:AsynchronousMachine.polePairNumber "2" ;
+		cim:AsynchronousMachine.ratedMechanicalPower "2" ;
+		cim:AsynchronousMachine.reversible "false" ;
+		cim:AsynchronousMachine.rxLockedRotorRatio "0.1" .
+	<urn:uuid:089c1945-4101-487f-a557-66c013b748f6> rdf:type cim:ExternalNetworkInjection ;
+		cim:IdentifiedObject.name "Q1" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:5d9d9d87-ce6b-4213-b4ec-d50de9790a59> ;
+		cim:ExternalNetworkInjection.governorSCD "0" ;
+		cim:ExternalNetworkInjection.ikSecond "true" ;
+		cim:ExternalNetworkInjection.maxInitialSymShCCurrent "38000" ;
+		cim:ExternalNetworkInjection.maxP "800" ;
+		cim:ExternalNetworkInjection.maxQ "600" ;
+		cim:ExternalNetworkInjection.maxR0ToX0Ratio "0.15" ;
+		cim:ExternalNetworkInjection.maxR1ToX1Ratio "0.1" ;
+		cim:ExternalNetworkInjection.maxZ0ToZ1Ratio "3.029" ;
+		cim:ExternalNetworkInjection.minInitialSymShCCurrent "0" ;
+		cim:ExternalNetworkInjection.minP "-800" ;
+		cim:ExternalNetworkInjection.minQ "-600" ;
+		cim:ExternalNetworkInjection.minR0ToX0Ratio "0.1" ;
+		cim:ExternalNetworkInjection.minR1ToX1Ratio "0.1" ;
+		cim:ExternalNetworkInjection.minZ0ToZ1Ratio "1" ;
+		cim:ExternalNetworkInjection.voltageFactor "1.1" .
+	<urn:uuid:3de9e1ad-4562-44df-b268-70ed0517e9e7> rdf:type cim:ExternalNetworkInjection ;
+		cim:IdentifiedObject.name "Q2" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:a43d15db-44a6-4fda-a525-2402ff43226f> ;
+		cim:ExternalNetworkInjection.governorSCD "0" ;
+		cim:ExternalNetworkInjection.ikSecond "true" ;
+		cim:ExternalNetworkInjection.maxInitialSymShCCurrent "16000" ;
+		cim:ExternalNetworkInjection.maxP "88" ;
+		cim:ExternalNetworkInjection.maxQ "66" ;
+		cim:ExternalNetworkInjection.maxR0ToX0Ratio "0.2" ;
+		cim:ExternalNetworkInjection.maxR1ToX1Ratio "0.1" ;
+		cim:ExternalNetworkInjection.maxZ0ToZ1Ratio "3.34865" ;
+		cim:ExternalNetworkInjection.minInitialSymShCCurrent "0" ;
+		cim:ExternalNetworkInjection.minP "-88" ;
+		cim:ExternalNetworkInjection.minQ "-66" ;
+		cim:ExternalNetworkInjection.minR0ToX0Ratio "0" ;
+		cim:ExternalNetworkInjection.minR1ToX1Ratio "0" ;
+		cim:ExternalNetworkInjection.minZ0ToZ1Ratio "0" ;
+		cim:ExternalNetworkInjection.voltageFactor "1.1" .
+	<urn:uuid:1e7f52a9-21d0-4ebe-9a8a-b29281d5bfc9> rdf:type cim:ACLineSegment ;
+		cim:IdentifiedObject.description "Line-7" ;
+		cim:IdentifiedObject.name "L5" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:c2091d24-3470-4bde-b020-8618e9e352a6> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:Conductor.length "15" ;
+		cim:ACLineSegment.b0ch "0" ;
+		cim:ACLineSegment.bch "0" ;
+		cim:ACLineSegment.g0ch "0" ;
+		cim:ACLineSegment.gch "0" ;
+		cim:ACLineSegment.r "1.8" ;
+		cim:ACLineSegment.r0 "3.3" ;
+		cim:ACLineSegment.shortCircuitEndTemperature "80" ;
+		cim:ACLineSegment.x "5.79" ;
+		cim:ACLineSegment.x0 "16.5" .
+	<urn:uuid:b3e74f7e-f257-44f1-a558-39d2476dbc54> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:8372a156-7579-4ea5-8793-24caf0d24603> .
+	<urn:uuid:c158c7c6-05a8-431c-951a-3b5641afbba5> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:b3e74f7e-f257-44f1-a558-39d2476dbc54> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:10be2112-5068-4819-b82a-a640e4df11a6> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:b3e74f7e-f257-44f1-a558-39d2476dbc54> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "604" .
+	<urn:uuid:5b545c73-df9c-4d25-bca2-62a57dd0b01b> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:b3e74f7e-f257-44f1-a558-39d2476dbc54> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "735" .
+	<urn:uuid:56757c2b-550e-4843-886a-ed193f6eb21e> rdf:type cim:ACLineSegment ;
+		cim:IdentifiedObject.description "Line-4" ;
+		cim:IdentifiedObject.name "L6" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:18235722-b718-4b01-bdeb-68ac9b8b9977> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> ;
+		cim:Conductor.length "1" ;
+		cim:ACLineSegment.b0ch "0" ;
+		cim:ACLineSegment.bch "0" ;
+		cim:ACLineSegment.g0ch "0" ;
+		cim:ACLineSegment.gch "0" ;
+		cim:ACLineSegment.r "0.082" ;
+		cim:ACLineSegment.r0 "0.082" ;
+		cim:ACLineSegment.shortCircuitEndTemperature "80" ;
+		cim:ACLineSegment.x "0.086" ;
+		cim:ACLineSegment.x0 "0.086" .
+	<urn:uuid:bb6e6a25-5f04-44ad-a89f-3f3a77285db6> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:5492183a-1e6f-4dee-a506-f389c69f4c83> .
+	<urn:uuid:5aab6f38-8337-4c05-921c-afb639bfee4e> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:bb6e6a25-5f04-44ad-a89f-3f3a77285db6> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "1155" .
+	<urn:uuid:cc310538-02b9-42cf-8438-8ae55caa5780> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:bb6e6a25-5f04-44ad-a89f-3f3a77285db6> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "1328" .
+	<urn:uuid:1ad2d2cf-4c58-4709-ab69-6e3fd948b3b1> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:bb6e6a25-5f04-44ad-a89f-3f3a77285db6> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "1617" .
+	<urn:uuid:e95a6228-ceac-4f0a-8b52-d35367b364dc> rdf:type cim:ACLineSegment ;
+		cim:IdentifiedObject.description "Line-5" ;
+		cim:IdentifiedObject.name "L4" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:9d3fb3a7-ab7b-4126-b3b6-9678584e37ab> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:Conductor.length "10" ;
+		cim:ACLineSegment.b0ch "0" ;
+		cim:ACLineSegment.bch "0" ;
+		cim:ACLineSegment.g0ch "0" ;
+		cim:ACLineSegment.gch "0" ;
+		cim:ACLineSegment.r "0.96" ;
+		cim:ACLineSegment.r0 "2.2" ;
+		cim:ACLineSegment.shortCircuitEndTemperature "80" ;
+		cim:ACLineSegment.x "3.88" ;
+		cim:ACLineSegment.x0 "11" .
+	<urn:uuid:cf69da25-f6ac-4176-9089-444a1bb2bc47> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:1a6456c6-fb39-42a0-b21d-089093ba7c49> .
+	<urn:uuid:50ef4486-e407-4efb-906a-259e124b975b> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:cf69da25-f6ac-4176-9089-444a1bb2bc47> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:03f63965-4a6c-48c1-b859-b1247a48a49f> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:cf69da25-f6ac-4176-9089-444a1bb2bc47> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "604" .
+	<urn:uuid:c6e13965-aa0f-43a4-9ab2-293253cb421b> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:cf69da25-f6ac-4176-9089-444a1bb2bc47> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "735" .
+	<urn:uuid:d5d1cc4a-6297-4386-b6ce-16dc26f15feb> rdf:type cim:ACLineSegment ;
+		cim:IdentifiedObject.description "Line-1" ;
+		cim:IdentifiedObject.name "L1" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:8dec4794-709f-4aa0-9872-5a4f94e9f714> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:Conductor.length "20" ;
+		cim:ACLineSegment.b0ch "0" ;
+		cim:ACLineSegment.bch "0" ;
+		cim:ACLineSegment.g0ch "0" ;
+		cim:ACLineSegment.gch "0" ;
+		cim:ACLineSegment.r "2.4" ;
+		cim:ACLineSegment.r0 "6.4" ;
+		cim:ACLineSegment.shortCircuitEndTemperature "80" ;
+		cim:ACLineSegment.x "7.8" ;
+		cim:ACLineSegment.x0 "25.2" .
+	<urn:uuid:c4e84cc6-5ec5-4633-8837-ce49ccf34393> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:933078aa-6687-4922-bb1f-4c1457f7c26f> .
+	<urn:uuid:40823ca5-dc1c-42ee-8b0b-83c7de4a3104> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:c4e84cc6-5ec5-4633-8837-ce49ccf34393> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:13f165da-ae31-466a-826e-4012f2eac2cd> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:c4e84cc6-5ec5-4633-8837-ce49ccf34393> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "604" .
+	<urn:uuid:ea167db4-754b-4848-93a5-be269cfe4644> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:c4e84cc6-5ec5-4633-8837-ce49ccf34393> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "735" .
+	<urn:uuid:efdd7f46-67e6-46e3-9dcd-a3b6f8c613a4> rdf:type cim:ACLineSegment ;
+		cim:IdentifiedObject.description "Line-6" ;
+		cim:IdentifiedObject.name "L2" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:1c19c2b3-8095-4f82-b0b1-692868bd15f4> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:Conductor.length "10" ;
+		cim:ACLineSegment.b0ch "0" ;
+		cim:ACLineSegment.bch "0" ;
+		cim:ACLineSegment.g0ch "0" ;
+		cim:ACLineSegment.gch "0" ;
+		cim:ACLineSegment.r "1.2" ;
+		cim:ACLineSegment.r0 "3.2" ;
+		cim:ACLineSegment.shortCircuitEndTemperature "80" ;
+		cim:ACLineSegment.x "3.9" ;
+		cim:ACLineSegment.x0 "12.6" .
+	<urn:uuid:23e70872-1757-4736-8b48-64926fabf973> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:563c5f79-a51d-4ce8-a921-0e86dd984bb5> .
+	<urn:uuid:94530374-3c11-4ffb-ad0f-59e38e3a7891> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:23e70872-1757-4736-8b48-64926fabf973> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:c7b03b9e-a4f8-443d-8595-ba7152d45c65> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:23e70872-1757-4736-8b48-64926fabf973> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "604" .
+	<urn:uuid:b43a0fbc-5a9c-44ac-a9a0-7885d5efbd93> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:23e70872-1757-4736-8b48-64926fabf973> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "735" .
+	<urn:uuid:35df6abe-3087-4c27-a90a-12b5065333f3> rdf:type cim:ACLineSegment ;
+		cim:IdentifiedObject.description "Line-2" ;
+		cim:IdentifiedObject.name "L3_a" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:f01dd6de-a7a1-4485-94db-7c7a392b946f> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:Conductor.length "5" ;
+		cim:ACLineSegment.b0ch "0" ;
+		cim:ACLineSegment.bch "0" ;
+		cim:ACLineSegment.g0ch "0" ;
+		cim:ACLineSegment.gch "0" ;
+		cim:ACLineSegment.r "0.6" ;
+		cim:ACLineSegment.r0 "2.6" ;
+		cim:ACLineSegment.shortCircuitEndTemperature "80" ;
+		cim:ACLineSegment.x "1.95" ;
+		cim:ACLineSegment.x0 "9.3" .
+	<urn:uuid:e0ad214e-cf92-4212-95dd-7c1895eaa91e> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:0593fd2d-7e55-4a8d-8ddf-4f8a576cf26c> .
+	<urn:uuid:c3161303-d82f-4ede-b270-d7c2b7822f27> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:e0ad214e-cf92-4212-95dd-7c1895eaa91e> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:512568f1-b159-4158-8b32-4edc95d784bb> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:e0ad214e-cf92-4212-95dd-7c1895eaa91e> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "604" .
+	<urn:uuid:25eae7ae-45b2-4485-8721-b9e9e2284ab7> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:e0ad214e-cf92-4212-95dd-7c1895eaa91e> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "735" .
+	<urn:uuid:05597934-b248-491e-803a-68ce6290f502> rdf:type cim:ACLineSegment ;
+		cim:IdentifiedObject.description "Line-3" ;
+		cim:IdentifiedObject.name "L3_b" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:42cb5e94-d05b-45ae-a620-bc7a7343f5de> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:Conductor.length "5" ;
+		cim:ACLineSegment.b0ch "0" ;
+		cim:ACLineSegment.bch "0" ;
+		cim:ACLineSegment.g0ch "0" ;
+		cim:ACLineSegment.gch "0" ;
+		cim:ACLineSegment.r "0.6" ;
+		cim:ACLineSegment.r0 "2.6" ;
+		cim:ACLineSegment.shortCircuitEndTemperature "80" ;
+		cim:ACLineSegment.x "1.95" ;
+		cim:ACLineSegment.x0 "9.3" .
+	<urn:uuid:5ed6f9f8-c080-4eef-a6d0-020ca76af7e9> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:616ef15c-065f-4ca2-8367-d1aad079357e> .
+	<urn:uuid:3e21a1e3-c6a7-4e12-8fa9-20eac1e20dcc> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:5ed6f9f8-c080-4eef-a6d0-020ca76af7e9> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:62f48d08-8ac8-4e9a-9430-67ac0f5aab59> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:5ed6f9f8-c080-4eef-a6d0-020ca76af7e9> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "604" .
+	<urn:uuid:799cc174-c824-4015-8889-121bde37245d> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:5ed6f9f8-c080-4eef-a6d0-020ca76af7e9> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "735" .
+	<urn:uuid:ceb5d06a-a7ff-4102-a620-7f3ea5fb4a51> rdf:type cim:PowerTransformer ;
+		cim:IdentifiedObject.description "Trafo-1" ;
+		cim:IdentifiedObject.name "T5" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:d6056127-34f1-43a9-b029-23fddb913bd5> ;
+		cim:PowerTransformer.beforeShCircuitHighestOperatingCurrent "158.14" ;
+		cim:PowerTransformer.beforeShCircuitHighestOperatingVoltage "121.095" ;
+		cim:PowerTransformer.beforeShortCircuitAnglePf "36.86" ;
+		cim:PowerTransformer.isPartOfGeneratorUnit "false" ;
+		cim:PowerTransformer.operationalValuesConsidered "false" .
+	<urn:uuid:d2e671db-1ed5-4f8d-bbbf-54554b175428> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T5" ;
+		cim:TransformerEnd.rground "0" ;
+		cim:TransformerEnd.endNumber "1" ;
+		cim:TransformerEnd.grounded "false" ;
+		cim:TransformerEnd.xground "0" ;
+		cim:TransformerEnd.Terminal <urn:uuid:51ac3672-026d-4257-9c68-7c7f57a9b55e> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "Y" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "0" ;
+		cim:PowerTransformerEnd.ratedS "31.5" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "115" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "2.099206" ;
+		cim:PowerTransformerEnd.r0 "2.099206" ;
+		cim:PowerTransformerEnd.x "50.3372" ;
+		cim:PowerTransformerEnd.x0 "50.3372" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:ceb5d06a-a7ff-4102-a620-7f3ea5fb4a51> .
+	<urn:uuid:e5badf8e-cfbd-48f0-b248-adfa0eb9a884> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:51ac3672-026d-4257-9c68-7c7f57a9b55e> .
+	<urn:uuid:a94a2227-8925-41a7-ae14-739cab0a36b2> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:e5badf8e-cfbd-48f0-b248-adfa0eb9a884> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "158" .
+	<urn:uuid:5864da77-5083-45eb-962f-349a6e5a1063> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:e5badf8e-cfbd-48f0-b248-adfa0eb9a884> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "182" .
+	<urn:uuid:c46c0958-4b79-4184-91a1-188c7a5959ce> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:e5badf8e-cfbd-48f0-b248-adfa0eb9a884> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "222" .
+	<urn:uuid:59ef0c3b-5e98-4771-8e07-0544bdc64c4a> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T5" ;
+		cim:TransformerEnd.rground "0" ;
+		cim:TransformerEnd.endNumber "2" ;
+		cim:TransformerEnd.grounded "false" ;
+		cim:TransformerEnd.xground "0" ;
+		cim:TransformerEnd.Terminal <urn:uuid:0fa430b4-d98c-43bd-9652-f61fb00e7340> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "Y" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "0" ;
+		cim:PowerTransformerEnd.ratedS "31.5" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "10.5" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0" ;
+		cim:PowerTransformerEnd.r0 "0" ;
+		cim:PowerTransformerEnd.x "0" ;
+		cim:PowerTransformerEnd.x0 "0" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:ceb5d06a-a7ff-4102-a620-7f3ea5fb4a51> .
+	<urn:uuid:db22b997-1134-4ef1-a4ce-3d599b44de6a> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:0fa430b4-d98c-43bd-9652-f61fb00e7340> .
+	<urn:uuid:2b7585e3-85ea-496e-b6ed-76349fa65841> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:db22b997-1134-4ef1-a4ce-3d599b44de6a> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "1732" .
+	<urn:uuid:18dac733-f9c1-485c-a62d-f90e9958cd99> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:db22b997-1134-4ef1-a4ce-3d599b44de6a> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "1992" .
+	<urn:uuid:411da062-b032-4029-8a40-3ff07ad69818> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:db22b997-1134-4ef1-a4ce-3d599b44de6a> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "2425" .
+	<urn:uuid:6c89588b-3df5-4120-88e5-26164afb43e9> rdf:type cim:PowerTransformer ;
+		cim:IdentifiedObject.description "Trafo-2" ;
+		cim:IdentifiedObject.name "T6" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:d6056127-34f1-43a9-b029-23fddb913bd5> ;
+		cim:PowerTransformer.beforeShCircuitHighestOperatingCurrent "158.14" ;
+		cim:PowerTransformer.beforeShCircuitHighestOperatingVoltage "121.095" ;
+		cim:PowerTransformer.beforeShortCircuitAnglePf "36.86" ;
+		cim:PowerTransformer.isPartOfGeneratorUnit "false" ;
+		cim:PowerTransformer.operationalValuesConsidered "false" .
+	<urn:uuid:fe6b71c8-5a63-4a10-a699-a6bf376e2e2f> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T6" ;
+		cim:TransformerEnd.rground "0" ;
+		cim:TransformerEnd.endNumber "1" ;
+		cim:TransformerEnd.grounded "false" ;
+		cim:TransformerEnd.xground "0" ;
+		cim:TransformerEnd.Terminal <urn:uuid:7145f995-b4a7-472e-9c58-2f8540ad3925> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "Y" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "0" ;
+		cim:PowerTransformerEnd.ratedS "31.5" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "115" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "2.099206" ;
+		cim:PowerTransformerEnd.r0 "2.099206" ;
+		cim:PowerTransformerEnd.x "50.3372" ;
+		cim:PowerTransformerEnd.x0 "50.3372" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:6c89588b-3df5-4120-88e5-26164afb43e9> .
+	<urn:uuid:82efa96c-b6da-48d1-9a01-964f3da06e49> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:7145f995-b4a7-472e-9c58-2f8540ad3925> .
+	<urn:uuid:65bc1d48-d43b-453c-b507-acb0966f8d2d> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:82efa96c-b6da-48d1-9a01-964f3da06e49> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "158" .
+	<urn:uuid:62224afb-e38e-40f3-8af8-8df8e1f2fd95> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:82efa96c-b6da-48d1-9a01-964f3da06e49> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "182" .
+	<urn:uuid:388327a4-d5da-477f-b9dd-a45edaa5b2f0> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:82efa96c-b6da-48d1-9a01-964f3da06e49> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "222" .
+	<urn:uuid:d99ae781-8809-4e59-b167-fc0106934b25> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T6" ;
+		cim:TransformerEnd.rground "0" ;
+		cim:TransformerEnd.endNumber "2" ;
+		cim:TransformerEnd.grounded "true" ;
+		cim:TransformerEnd.xground "100" ;
+		cim:TransformerEnd.Terminal <urn:uuid:912cc25e-78d9-43a6-a77e-b2b7bb76688b> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "Yn" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "0" ;
+		cim:PowerTransformerEnd.ratedS "31.5" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "10.5" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0" ;
+		cim:PowerTransformerEnd.r0 "0" ;
+		cim:PowerTransformerEnd.x "0" ;
+		cim:PowerTransformerEnd.x0 "0" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:6c89588b-3df5-4120-88e5-26164afb43e9> .
+	<urn:uuid:4de221e3-af50-46de-b0d2-d096fc6bb7fc> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:912cc25e-78d9-43a6-a77e-b2b7bb76688b> .
+	<urn:uuid:63551f30-7dda-4ddb-8f27-999f18779da4> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:4de221e3-af50-46de-b0d2-d096fc6bb7fc> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "1732" .
+	<urn:uuid:e2220586-2422-4a05-a34f-d932cce7567c> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:4de221e3-af50-46de-b0d2-d096fc6bb7fc> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "1992" .
+	<urn:uuid:35b531f8-d134-4a3f-a176-7759bde52ece> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:4de221e3-af50-46de-b0d2-d096fc6bb7fc> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "2425" .
+	<urn:uuid:f1e72854-ec35-46e9-b614-27db354e8dbb> rdf:type cim:PowerTransformer ;
+		cim:IdentifiedObject.description "Trafo-3" ;
+		cim:IdentifiedObject.name "T2" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:3f64f4e2-adfe-4d12-b082-68e7fe4b11c9> ;
+		cim:PowerTransformer.highSideMinOperatingU "115" ;
+		cim:PowerTransformer.isPartOfGeneratorUnit "true" ;
+		cim:PowerTransformer.operationalValuesConsidered "false" .
+	<urn:uuid:063fef99-e19b-4ebe-92a9-1e8927fdca2a> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T2" ;
+		cim:TransformerEnd.rground "0" ;
+		cim:TransformerEnd.endNumber "1" ;
+		cim:TransformerEnd.grounded "false" ;
+		cim:TransformerEnd.xground "0" ;
+		cim:TransformerEnd.Terminal <urn:uuid:a1158b5f-3b71-4c44-8b15-4150d983f73e> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "Y" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "0" ;
+		cim:PowerTransformerEnd.ratedS "100" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "120" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0.72" ;
+		cim:PowerTransformerEnd.r0 "0.72" ;
+		cim:PowerTransformerEnd.x "17.2649937" ;
+		cim:PowerTransformerEnd.x0 "17.2649937" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:f1e72854-ec35-46e9-b614-27db354e8dbb> .
+	<urn:uuid:2f6fd787-0059-4264-af1f-10de7bf1d250> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:a1158b5f-3b71-4c44-8b15-4150d983f73e> .
+	<urn:uuid:b378a9d1-836e-41db-9e27-515aab8e516d> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:2f6fd787-0059-4264-af1f-10de7bf1d250> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "481" .
+	<urn:uuid:84c02220-11c1-4198-b81a-d58c41873fb1> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:2f6fd787-0059-4264-af1f-10de7bf1d250> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "553" .
+	<urn:uuid:af422211-ccbf-483c-97c9-2bbbd48f78f9> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:2f6fd787-0059-4264-af1f-10de7bf1d250> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "673" .
+	<urn:uuid:6e5fd46a-a8d2-4f85-baa2-b6efac1ad5fd> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T2" ;
+		cim:TransformerEnd.endNumber "2" ;
+		cim:TransformerEnd.grounded "false" ;
+		cim:TransformerEnd.Terminal <urn:uuid:b2112f10-1057-4a28-a18d-a1952c791c4c> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "D" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "5" ;
+		cim:PowerTransformerEnd.ratedS "100" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "10.5" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0" ;
+		cim:PowerTransformerEnd.r0 "0" ;
+		cim:PowerTransformerEnd.x "0" ;
+		cim:PowerTransformerEnd.x0 "0" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:f1e72854-ec35-46e9-b614-27db354e8dbb> .
+	<urn:uuid:7bee47c1-98f3-4edc-9904-2d701043e59c> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:b2112f10-1057-4a28-a18d-a1952c791c4c> .
+	<urn:uuid:7dd09c51-89c1-4391-a4f0-842c95f23f4e> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:7bee47c1-98f3-4edc-9904-2d701043e59c> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "5498" .
+	<urn:uuid:c63497a5-89c2-4940-a40f-ef6ececc073d> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:7bee47c1-98f3-4edc-9904-2d701043e59c> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "6323" .
+	<urn:uuid:1162b24f-783f-4fe9-afce-24bac9cb061a> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:7bee47c1-98f3-4edc-9904-2d701043e59c> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "7698" .
+	<urn:uuid:813365c3-5be7-4ef0-a0a7-abd1ae6dc174> rdf:type cim:PowerTransformer ;
+		cim:IdentifiedObject.description "Trafo-4" ;
+		cim:IdentifiedObject.name "T1" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:974565b1-ac55-4901-9f48-afc7ef5486df> ;
+		cim:PowerTransformer.highSideMinOperatingU "115" ;
+		cim:PowerTransformer.isPartOfGeneratorUnit "true" ;
+		cim:PowerTransformer.operationalValuesConsidered "false" .
+	<urn:uuid:0a33f633-7415-4f95-b3c2-f3ddbee92644> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T1" ;
+		cim:TransformerEnd.endNumber "2" ;
+		cim:TransformerEnd.grounded "false" ;
+		cim:TransformerEnd.Terminal <urn:uuid:7fe566b9-6bac-4cd3-8b52-8f46e9ba237d> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:e6b5f155-583d-46fa-90fc-0673d1afe1be> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "D" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "5" ;
+		cim:PowerTransformerEnd.ratedS "150" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "21" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0.0147" ;
+		cim:PowerTransformerEnd.r0 "0.0147" ;
+		cim:PowerTransformerEnd.x "0.47017" ;
+		cim:PowerTransformerEnd.x0 "0.446662" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:813365c3-5be7-4ef0-a0a7-abd1ae6dc174> .
+	<urn:uuid:69d76b84-9655-451f-9101-54b151eb01d3> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:7fe566b9-6bac-4cd3-8b52-8f46e9ba237d> .
+	<urn:uuid:7a187956-2f45-43bf-b548-464f76810cc1> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:69d76b84-9655-451f-9101-54b151eb01d3> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "4123" .
+	<urn:uuid:2087197f-6dad-4625-a751-7d1df6b6ca80> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:69d76b84-9655-451f-9101-54b151eb01d3> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "4742" .
+	<urn:uuid:5b8bbc1e-6e73-43a2-af19-cefabdc56b54> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:69d76b84-9655-451f-9101-54b151eb01d3> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "5773" .
+	<urn:uuid:0522ca48-e644-4d3a-9721-22bb0abd1c8b> rdf:type cim:RatioTapChanger ;
+		cim:IdentifiedObject.name "T1" ;
+		cim:TapChanger.highStep "25" ;
+		cim:TapChanger.lowStep "1" ;
+		cim:TapChanger.ltcFlag "true" ;
+		cim:TapChanger.neutralStep "13" ;
+		cim:TapChanger.neutralU "21" ;
+		cim:TapChanger.normalStep "13" ;
+		cim:RatioTapChanger.tculControlMode "volt" ;
+		cim:RatioTapChanger.stepVoltageIncrement "1" ;
+		cim:RatioTapChanger.TransformerEnd <urn:uuid:0a33f633-7415-4f95-b3c2-f3ddbee92644> .
+	<urn:uuid:4864d0c6-f4ca-477a-b944-9927edb37fa6> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T1" ;
+		cim:TransformerEnd.rground "0" ;
+		cim:TransformerEnd.endNumber "1" ;
+		cim:TransformerEnd.grounded "true" ;
+		cim:TransformerEnd.xground "22" ;
+		cim:TransformerEnd.Terminal <urn:uuid:82611054-72b9-4cb0-8621-e418b8962cb1> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "Yn" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "0" ;
+		cim:PowerTransformerEnd.ratedS "150" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "115" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0" ;
+		cim:PowerTransformerEnd.r0 "0" ;
+		cim:PowerTransformerEnd.x "0" ;
+		cim:PowerTransformerEnd.x0 "0" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:813365c3-5be7-4ef0-a0a7-abd1ae6dc174> .
+	<urn:uuid:3a070392-4564-4fc8-8b94-34328a589fab> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:82611054-72b9-4cb0-8621-e418b8962cb1> .
+	<urn:uuid:9607451a-b19f-4841-93aa-e6757f277b9a> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:3a070392-4564-4fc8-8b94-34328a589fab> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "753" .
+	<urn:uuid:fafc5f7d-b49f-497c-a4a4-d15df5eb8040> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:3a070392-4564-4fc8-8b94-34328a589fab> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "866" .
+	<urn:uuid:f60bb615-492a-4942-9f93-2c67749d642e> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:3a070392-4564-4fc8-8b94-34328a589fab> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "1054" .
+	<urn:uuid:411b5401-0a43-404a-acb4-05c3d7d0c95c> rdf:type cim:PowerTransformer ;
+		cim:IdentifiedObject.name "T4" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:af9a4ae3-ba2e-4c34-8e47-5af894ee20f4> ;
+		cim:PowerTransformer.isPartOfGeneratorUnit "false" .
+	<urn:uuid:8f183bc1-d883-5b72-1918-ebb9fbe4b3e7> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T4" ;
+		cim:TransformerEnd.endNumber "3" ;
+		cim:TransformerEnd.grounded "false" ;
+		cim:TransformerEnd.Terminal <urn:uuid:eb8ed3e6-c0de-47e2-9dd5-52b321d51b70> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:b2a3e748-1772-409d-a61f-1d6da09564c9> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "D" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "5" ;
+		cim:PowerTransformerEnd.ratedS "50" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "30" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0.0254571438" ;
+		cim:PowerTransformerEnd.r0 "0.0254571438" ;
+		cim:PowerTransformerEnd.x "1.259741" ;
+		cim:PowerTransformerEnd.x0 "1.176919" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:411b5401-0a43-404a-acb4-05c3d7d0c95c> .
+	<urn:uuid:f1fe0842-8784-4ca4-bbbe-674f96804c1d> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:eb8ed3e6-c0de-47e2-9dd5-52b321d51b70> .
+	<urn:uuid:339876d4-a3b4-49f7-8969-c29d7e222897> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:f1fe0842-8784-4ca4-bbbe-674f96804c1d> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "962" .
+	<urn:uuid:2fff858a-1bab-41e0-bbbf-7f20d3f38cf1> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:f1fe0842-8784-4ca4-bbbe-674f96804c1d> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "1106" .
+	<urn:uuid:b9b7509a-b3a1-4dbd-aaab-4db17394f383> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:f1fe0842-8784-4ca4-bbbe-674f96804c1d> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "1347" .
+	<urn:uuid:c98e36e1-a53a-384c-357e-ab34d9335d77> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T4" ;
+		cim:TransformerEnd.rground "0" ;
+		cim:TransformerEnd.endNumber "2" ;
+		cim:TransformerEnd.grounded "true" ;
+		cim:TransformerEnd.xground "0" ;
+		cim:TransformerEnd.Terminal <urn:uuid:e59d3a8c-8382-413a-95ae-6354dfe85565> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "Yn" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "0" ;
+		cim:PowerTransformerEnd.ratedS "350" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "120" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0.05348571429" ;
+		cim:PowerTransformerEnd.r0 "0.05348571429" ;
+		cim:PowerTransformerEnd.x "-0.001121283618" ;
+		cim:PowerTransformerEnd.x0 "-0.6881" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:411b5401-0a43-404a-acb4-05c3d7d0c95c> .
+	<urn:uuid:8973d7f9-bacb-4996-bc68-176b405a8d7c> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:e59d3a8c-8382-413a-95ae-6354dfe85565> .
+	<urn:uuid:febfc21c-435b-47a8-851c-c1b8e2400fa6> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:8973d7f9-bacb-4996-bc68-176b405a8d7c> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "1683" .
+	<urn:uuid:7a5635e4-ea6d-491c-9cdc-73a1db69c3e0> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:8973d7f9-bacb-4996-bc68-176b405a8d7c> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "1936" .
+	<urn:uuid:6b58bc5d-b2b2-4fda-ac1a-f715f9827d17> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:8973d7f9-bacb-4996-bc68-176b405a8d7c> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "2357" .
+	<urn:uuid:a2ea9c4e-6793-6d52-a476-3dbb1da389cf> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T4" ;
+		cim:TransformerEnd.rground "0" ;
+		cim:TransformerEnd.endNumber "1" ;
+		cim:TransformerEnd.grounded "false" ;
+		cim:TransformerEnd.xground "0" ;
+		cim:TransformerEnd.Terminal <urn:uuid:5af3b857-165c-4f96-b415-0d6e2e9ca27f> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:ed2bd589-b6d9-42bd-82fc-0b895e8707b1> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "Y" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "0" ;
+		cim:PowerTransformerEnd.ratedS "350" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "400" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0.5942857143" ;
+		cim:PowerTransformerEnd.r0 "0.5942857143" ;
+		cim:PowerTransformerEnd.x "96.0051006" ;
+		cim:PowerTransformerEnd.x0 "95.05666" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:411b5401-0a43-404a-acb4-05c3d7d0c95c> .
+	<urn:uuid:95ffb82a-4e2e-4ca4-baba-6e253a0cdb17> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:5af3b857-165c-4f96-b415-0d6e2e9ca27f> .
+	<urn:uuid:503ef306-11a4-451a-83eb-4b256f6698b2> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:95ffb82a-4e2e-4ca4-baba-6e253a0cdb17> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "505" .
+	<urn:uuid:b9ac6108-d047-49da-a4e7-7fef4fc87baa> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:95ffb82a-4e2e-4ca4-baba-6e253a0cdb17> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "580" .
+	<urn:uuid:afef4cb4-b859-415e-af9a-f2cdfd1d7876> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:95ffb82a-4e2e-4ca4-baba-6e253a0cdb17> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "707" .
+	<urn:uuid:5d38b7ed-73fd-405a-9cdb-78425e003773> rdf:type cim:PowerTransformer ;
+		cim:IdentifiedObject.description "Trafo-5" ;
+		cim:IdentifiedObject.name "T3" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:af9a4ae3-ba2e-4c34-8e47-5af894ee20f4> ;
+		cim:PowerTransformer.isPartOfGeneratorUnit "false" .
+	<urn:uuid:03916530-aaea-41c2-b0a2-770d44470839> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T3" ;
+		cim:TransformerEnd.rground "0" ;
+		cim:TransformerEnd.endNumber "1" ;
+		cim:TransformerEnd.grounded "true" ;
+		cim:TransformerEnd.xground "0" ;
+		cim:TransformerEnd.Terminal <urn:uuid:1dfffea9-1fac-48f1-b466-1312643f3a47> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:ed2bd589-b6d9-42bd-82fc-0b895e8707b1> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "Yn" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "0" ;
+		cim:PowerTransformerEnd.ratedS "350" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "400" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0.5942857143" ;
+		cim:PowerTransformerEnd.r0 "0.5942857143" ;
+		cim:PowerTransformerEnd.x "96.0051006" ;
+		cim:PowerTransformerEnd.x0 "95.05666" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:5d38b7ed-73fd-405a-9cdb-78425e003773> .
+	<urn:uuid:938affe6-43f5-4729-a3c7-7543ef4eb20e> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:1dfffea9-1fac-48f1-b466-1312643f3a47> .
+	<urn:uuid:e906b8f2-2da9-4975-bf67-66bec9865ea9> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:938affe6-43f5-4729-a3c7-7543ef4eb20e> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "505" .
+	<urn:uuid:91716cae-f695-473a-9586-82daed44ebf7> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:938affe6-43f5-4729-a3c7-7543ef4eb20e> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "580" .
+	<urn:uuid:96f4092e-628e-4649-8b06-7a96bcc1b989> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:938affe6-43f5-4729-a3c7-7543ef4eb20e> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "707" .
+	<urn:uuid:8de2d157-15d1-42c7-b376-a8ae5b6c0e77> rdf:type cim:RatioTapChanger ;
+		cim:IdentifiedObject.name "T3" ;
+		cim:TapChanger.highStep "33" ;
+		cim:TapChanger.lowStep "1" ;
+		cim:TapChanger.ltcFlag "true" ;
+		cim:TapChanger.neutralStep "17" ;
+		cim:TapChanger.neutralU "400" ;
+		cim:TapChanger.normalStep "17" ;
+		cim:RatioTapChanger.tculControlMode "volt" ;
+		cim:RatioTapChanger.stepVoltageIncrement "1" ;
+		cim:RatioTapChanger.TransformerEnd <urn:uuid:03916530-aaea-41c2-b0a2-770d44470839> .
+	<urn:uuid:4c7533e8-0c50-443e-8a8a-12574f04daf5> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T3" ;
+		cim:TransformerEnd.rground "0" ;
+		cim:TransformerEnd.endNumber "2" ;
+		cim:TransformerEnd.grounded "false" ;
+		cim:TransformerEnd.xground "0" ;
+		cim:TransformerEnd.Terminal <urn:uuid:d5b02a21-e6f5-441c-81f2-4accb1a56ddd> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "Y" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "0" ;
+		cim:PowerTransformerEnd.ratedS "350" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "120" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0.05348571429" ;
+		cim:PowerTransformerEnd.r0 "0.05348571429" ;
+		cim:PowerTransformerEnd.x "-0.001121283618" ;
+		cim:PowerTransformerEnd.x0 "-0.6881" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:5d38b7ed-73fd-405a-9cdb-78425e003773> .
+	<urn:uuid:86b8024b-e6dd-4e33-903f-87bb436f5843> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:d5b02a21-e6f5-441c-81f2-4accb1a56ddd> .
+	<urn:uuid:1279ed2c-6ab6-46d8-af8c-d32d133f3589> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:86b8024b-e6dd-4e33-903f-87bb436f5843> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "1683" .
+	<urn:uuid:46e3ac62-4de9-4a04-8f8f-dc6ce15a125e> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:86b8024b-e6dd-4e33-903f-87bb436f5843> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "1936" .
+	<urn:uuid:2b650521-4b6f-450f-a5f8-afccbccd9260> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:86b8024b-e6dd-4e33-903f-87bb436f5843> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "2357" .
+	<urn:uuid:3b446af6-630a-46ee-bc76-d5543509b355> rdf:type cim:PowerTransformerEnd ;
+		cim:IdentifiedObject.name "T3" ;
+		cim:TransformerEnd.endNumber "3" ;
+		cim:TransformerEnd.grounded "false" ;
+		cim:TransformerEnd.Terminal <urn:uuid:01a240e9-5607-4844-9d53-5c8b08b5c9a8> ;
+		cim:TransformerEnd.BaseVoltage <urn:uuid:b2a3e748-1772-409d-a61f-1d6da09564c9> ;
+		cim:PowerTransformerEnd.b "0" ;
+		cim:PowerTransformerEnd.connectionKind "D" ;
+		cim:PowerTransformerEnd.b0 "0" ;
+		cim:PowerTransformerEnd.phaseAngleClock "5" ;
+		cim:PowerTransformerEnd.ratedS "50" ;
+		cim:PowerTransformerEnd.g "0" ;
+		cim:PowerTransformerEnd.ratedU "30" ;
+		cim:PowerTransformerEnd.g0 "0" ;
+		cim:PowerTransformerEnd.r "0.02545714286" ;
+		cim:PowerTransformerEnd.r0 "0.02545714286" ;
+		cim:PowerTransformerEnd.x "1.259740894" ;
+		cim:PowerTransformerEnd.x0 "1.176919" ;
+		cim:PowerTransformerEnd.PowerTransformer <urn:uuid:5d38b7ed-73fd-405a-9cdb-78425e003773> .
+	<urn:uuid:df1c9d1f-8177-4758-ab9f-0dabf6a989b8> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:01a240e9-5607-4844-9d53-5c8b08b5c9a8> .
+	<urn:uuid:b3ea9d58-113b-4cbb-887b-9af0de3280ac> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:df1c9d1f-8177-4758-ab9f-0dabf6a989b8> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "962" .
+	<urn:uuid:5d2a6568-5610-4f15-ae82-d9b6ad5778b7> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:df1c9d1f-8177-4758-ab9f-0dabf6a989b8> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "1106" .
+	<urn:uuid:d64b670b-240d-42bb-9222-49ab6c131bdd> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:df1c9d1f-8177-4758-ab9f-0dabf6a989b8> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "1347" .
+	<urn:uuid:4a8a5456-91ac-4bc9-b8e2-64eeeef78a1a> rdf:type cim:RatioTapChanger ;
+		cim:IdentifiedObject.name "T4" ;
+		cim:TapChanger.highStep "33" ;
+		cim:TapChanger.lowStep "1" ;
+		cim:TapChanger.ltcFlag "true" ;
+		cim:TapChanger.neutralStep "17" ;
+		cim:TapChanger.neutralU "400" ;
+		cim:TapChanger.normalStep "17" ;
+		cim:RatioTapChanger.tculControlMode "volt" ;
+		cim:RatioTapChanger.stepVoltageIncrement "1" ;
+		cim:RatioTapChanger.TransformerEnd <urn:uuid:a2ea9c4e-6793-6d52-a476-3dbb1da389cf> .
+	<urn:uuid:04684742-c766-11e0-1111-005056c00008> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "68-116_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:5150a037-e241-421f-98b2-fe60e5c90303> .
+	<urn:uuid:04684742-c766-11e1-1111-005056c00008> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "68-116_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:5150a037-e241-421f-98b2-fe60e5c90303> .
+	<urn:uuid:04684742-c766-11e2-1111-005056c00008> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "Injection_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:cc268d3b-fe87-42ee-b48a-9e9d625a8650> .
+	<urn:uuid:04684742-c766-11e0-2222-005056c00008> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "71-73_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:f32baf36-7ea3-4b6a-9452-71e7f18779f8> .
+	<urn:uuid:04684742-c766-11e1-2222-005056c00008> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "71-73_1" ;
+		cim:ACDCTerminal.sequenceNumber "2" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:f32baf36-7ea3-4b6a-9452-71e7f18779f8> .
+	<urn:uuid:04684742-c766-11e2-2222-005056c00008> rdf:type cim:Terminal ;
+		cim:IdentifiedObject.name "Injection_0" ;
+		cim:ACDCTerminal.sequenceNumber "1" ;
+		cim:Terminal.phases "ABC" ;
+		cim:Terminal.ConductingEquipment <urn:uuid:a5a2acc5-c3cd-406c-b061-83a06bcef2f4> .
+	<urn:uuid:5150a037-e241-421f-98b2-fe60e5c90303> rdf:type cim:ACLineSegment ;
+		cim:IdentifiedObject.name "XQ1-N1" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:ed2bd589-b6d9-42bd-82fc-0b895e8707b1> ;
+		cim:Conductor.length "1" ;
+		cim:ACLineSegment.b0ch "0" ;
+		cim:ACLineSegment.bch "0" ;
+		cim:ACLineSegment.g0ch "0" ;
+		cim:ACLineSegment.gch "0" ;
+		cim:ACLineSegment.r "0" ;
+		cim:ACLineSegment.r0 "0" ;
+		cim:ACLineSegment.shortCircuitEndTemperature "80" ;
+		cim:ACLineSegment.x "0.05" ;
+		cim:ACLineSegment.x0 "0" .
+	<urn:uuid:897ba3f2-36c2-4c61-b540-e44d027a5bdc> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:04684742-c766-11e0-1111-005056c00008> .
+	<urn:uuid:96f545a9-d779-43ba-b3c6-6c506b830cd0> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:897ba3f2-36c2-4c61-b540-e44d027a5bdc> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "1000" .
+	<urn:uuid:5915064d-0ee3-441d-b160-21acc094008b> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:897ba3f2-36c2-4c61-b540-e44d027a5bdc> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "1150" .
+	<urn:uuid:b87b8f1b-b972-4800-88b1-69171f052ffb> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:897ba3f2-36c2-4c61-b540-e44d027a5bdc> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "1400" .
+	<urn:uuid:f32baf36-7ea3-4b6a-9452-71e7f18779f8> rdf:type cim:ACLineSegment ;
+		cim:IdentifiedObject.name "XQ2-N5" ;
+		cim:Equipment.aggregate "false" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:c3f46fe5-0cd1-4a1c-b722-e967b9ab21e2> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> ;
+		cim:Conductor.length "1" ;
+		cim:ACLineSegment.b0ch "0" ;
+		cim:ACLineSegment.bch "0" ;
+		cim:ACLineSegment.g0ch "0" ;
+		cim:ACLineSegment.gch "0" ;
+		cim:ACLineSegment.r "0" ;
+		cim:ACLineSegment.r0 "0" ;
+		cim:ACLineSegment.shortCircuitEndTemperature "80" ;
+		cim:ACLineSegment.x "0.05" ;
+		cim:ACLineSegment.x0 "0" .
+	<urn:uuid:57c14dc8-1249-4a1c-8a58-b741b7bd8ae5> rdf:type cim:OperationalLimitSet ;
+		cim:IdentifiedObject.name "Ratings" ;
+		cim:OperationalLimitSet.Terminal <urn:uuid:04684742-c766-11e0-2222-005056c00008> .
+	<urn:uuid:f7db6e6d-a44e-4df1-b9ec-8b0711e96763> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:57c14dc8-1249-4a1c-8a58-b741b7bd8ae5> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:0112c7f1-7523-4339-a285-d941a4a491ec> ;
+		cim:CurrentLimit.value "1000" .
+	<urn:uuid:6cb3ee02-4526-40a3-9c95-1d17d524aae7> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "ShortTerm" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:57c14dc8-1249-4a1c-8a58-b741b7bd8ae5> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:92ad0fde-1e8d-46b5-83cf-8bcd39450e18> ;
+		cim:CurrentLimit.value "1150" .
+	<urn:uuid:2b31b2eb-93d0-4642-8d7f-eb353722cea1> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Emergency" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:57c14dc8-1249-4a1c-8a58-b741b7bd8ae5> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:ed7c9153-defb-4fff-aa25-85c175e80ca0> ;
+		cim:CurrentLimit.value "1400" .
+	<urn:uuid:cc268d3b-fe87-42ee-b48a-9e9d625a8650> rdf:type cim:EquivalentInjection ;
+		cim:IdentifiedObject.name "Injection1" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:e9277658-07e5-4e84-aef8-a891d14e7c54> ;
+		cim:EquivalentInjection.r "0.63185" ;
+		cim:EquivalentInjection.r0 "2.85315" ;
+		cim:EquivalentInjection.r2 "0.63185" ;
+		cim:EquivalentInjection.regulationCapability "false" ;
+		cim:EquivalentInjection.x "6.3185" ;
+		cim:EquivalentInjection.x0 "19.021" ;
+		cim:EquivalentInjection.x2 "6.3185" .
+	<urn:uuid:a5a2acc5-c3cd-406c-b061-83a06bcef2f4> rdf:type cim:EquivalentInjection ;
+		cim:IdentifiedObject.name "Injection2" ;
+		cim:Equipment.EquipmentContainer <urn:uuid:c3f46fe5-0cd1-4a1c-b722-e967b9ab21e2> ;
+		cim:ConductingEquipment.BaseVoltage <urn:uuid:fe97b80b-3e0e-4a2c-964b-bc29b0dda632> ;
+		cim:EquivalentInjection.r "0.43445" ;
+		cim:EquivalentInjection.r0 "2.86738" ;
+		cim:EquivalentInjection.r2 "0.43445" ;
+		cim:EquivalentInjection.regulationCapability "false" ;
+		cim:EquivalentInjection.x "4.3445" ;
+		cim:EquivalentInjection.x0 "14.3369" ;
+		cim:EquivalentInjection.x2 "4.3445" .
+	<urn:uuid:a661b188-2945-40e1-9880-2014908ea354> rdf:type cim:ControlAreaGeneratingUnit ;
+		cim:IdentifiedObject.name "GEN_A1" ;
+		cim:ControlAreaGeneratingUnit.ControlArea <urn:uuid:1f9ecd81-e069-4040-bd64-f34b0fac3a60> ;
+		cim:ControlAreaGeneratingUnit.GeneratingUnit <urn:uuid:93346fba-8a54-4969-a063-50e4a037e1f2> .
+	<urn:uuid:1f9ecd81-e069-4040-bd64-f34b0fac3a60> rdf:type cim:ControlArea ;
+		cim:IdentifiedObject.name "_CA_A1" ;
+		cim:ControlArea.type "Interchange" .
+	<urn:uuid:c2091d24-3470-4bde-b020-8618e9e352a6> rdf:type cim:Line ;
+		cim:IdentifiedObject.name "Container for Line-7" ;
+		cim:Line.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:18235722-b718-4b01-bdeb-68ac9b8b9977> rdf:type cim:Line ;
+		cim:IdentifiedObject.name "Container for Line-4" ;
+		cim:Line.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:9d3fb3a7-ab7b-4126-b3b6-9678584e37ab> rdf:type cim:Line ;
+		cim:IdentifiedObject.name "Container for Line-5" ;
+		cim:Line.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:8dec4794-709f-4aa0-9872-5a4f94e9f714> rdf:type cim:Line ;
+		cim:IdentifiedObject.name "Container for Line-1" ;
+		cim:Line.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:1c19c2b3-8095-4f82-b0b1-692868bd15f4> rdf:type cim:Line ;
+		cim:IdentifiedObject.name "Container for Line-6" ;
+		cim:Line.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:f01dd6de-a7a1-4485-94db-7c7a392b946f> rdf:type cim:Line ;
+		cim:IdentifiedObject.name "Container for Line-2" ;
+		cim:Line.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:42cb5e94-d05b-45ae-a620-bc7a7343f5de> rdf:type cim:Line ;
+		cim:IdentifiedObject.name "Container for Line-3" ;
+		cim:Line.Region <urn:uuid:8f28794f-6030-4ec6-b17c-91ecb4321673> .
+	<urn:uuid:10d33824-507a-4999-bd51-f73373e7509a> rdf:type cim:RegulatingControl ;
+		cim:IdentifiedObject.name "TwinBrch SM" ;
+		cim:RegulatingControl.mode "voltage" ;
+		cim:RegulatingControl.Terminal <urn:uuid:4dec53ca-3ea6-4bd0-a225-b559c8293e91> .
+	<urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> rdf:type cim:OperationalLimitType ;
+		cim:IdentifiedObject.name "PATLT" ;
+		cim:OperationalLimitType.acceptableDuration "4000" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#OperationalLimitType.limitType> "patlt" ;
+		cim:OperationalLimitType.direction "absoluteValue" .
+	<urn:uuid:44b184ba-0034-4f10-acd9-5fe976632461> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:b3e74f7e-f257-44f1-a558-39d2476dbc54> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:3e684ef9-64c7-407e-8e9a-44720b63efac> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:bb6e6a25-5f04-44ad-a89f-3f3a77285db6> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "1155" .
+	<urn:uuid:d6ceab86-06b7-4bb3-91a7-c52e5e3c7557> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:cf69da25-f6ac-4176-9089-444a1bb2bc47> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:c73928d1-3ec0-4aa3-ab2b-35df61b2e18b> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:c4e84cc6-5ec5-4633-8837-ce49ccf34393> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:4b476a28-d0f0-4aa0-8aa7-293840fa64ac> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:23e70872-1757-4736-8b48-64926fabf973> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:c5d40744-0e35-4d38-86a9-614261483a99> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:e0ad214e-cf92-4212-95dd-7c1895eaa91e> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:b5d817a9-1d98-4609-93fe-74da3d295ccf> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:5ed6f9f8-c080-4eef-a6d0-020ca76af7e9> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "525" .
+	<urn:uuid:b5092424-435b-4e9b-9ac2-9a68c710a987> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:e5badf8e-cfbd-48f0-b248-adfa0eb9a884> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "158" .
+	<urn:uuid:76ca5aef-b793-42e7-9f3b-6f0db50631d9> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:db22b997-1134-4ef1-a4ce-3d599b44de6a> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "1732" .
+	<urn:uuid:4e4fd255-4795-4c56-ac86-2e139e02e799> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:82efa96c-b6da-48d1-9a01-964f3da06e49> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "158" .
+	<urn:uuid:088eb5f2-e13b-4edf-a30a-ff48b7a8ae41> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:4de221e3-af50-46de-b0d2-d096fc6bb7fc> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "1732" .
+	<urn:uuid:b2937835-f761-493b-a52c-b0df96831f5f> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:2f6fd787-0059-4264-af1f-10de7bf1d250> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "481" .
+	<urn:uuid:3b71d2e4-8be2-4821-9b04-1c3450aea420> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:7bee47c1-98f3-4edc-9904-2d701043e59c> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "5498" .
+	<urn:uuid:c936d958-7948-4d0c-bdf2-0377047aae44> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:69d76b84-9655-451f-9101-54b151eb01d3> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "4123" .
+	<urn:uuid:1ea781c3-c283-414b-8f9b-32007d3552a5> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:3a070392-4564-4fc8-8b94-34328a589fab> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "753" .
+	<urn:uuid:427b3d77-d05c-4299-9a39-54b0de217dbb> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:f1fe0842-8784-4ca4-bbbe-674f96804c1d> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "962" .
+	<urn:uuid:3d101345-5841-44af-bbab-88ed4f251baf> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:8973d7f9-bacb-4996-bc68-176b405a8d7c> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "1683" .
+	<urn:uuid:f6223efc-90c1-4d6b-8c83-f10c861d80d3> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:95ffb82a-4e2e-4ca4-baba-6e253a0cdb17> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "505" .
+	<urn:uuid:ba76dd94-af4b-4dca-bb06-60fcb8ef56a2> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:938affe6-43f5-4729-a3c7-7543ef4eb20e> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "505" .
+	<urn:uuid:d1f82a75-6043-4eff-a40b-f6cfc608f190> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:86b8024b-e6dd-4e33-903f-87bb436f5843> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "1683" .
+	<urn:uuid:b49709a1-3039-48d5-9f81-efa5a42ea3da> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:df1c9d1f-8177-4758-ab9f-0dabf6a989b8> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "962" .
+	<urn:uuid:e6887eaa-9704-4d02-ac77-1cbbe04cf063> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:897ba3f2-36c2-4c61-b540-e44d027a5bdc> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "1000" .
+	<urn:uuid:cd839287-33a5-482c-b848-1e62283f6a1a> rdf:type cim:CurrentLimit ;
+		cim:IdentifiedObject.name "Normal" ;
+		cim:OperationalLimit.OperationalLimitSet <urn:uuid:57c14dc8-1249-4a1c-8a58-b741b7bd8ae5> ;
+		cim:OperationalLimit.OperationalLimitType <urn:uuid:c3b2d0b0-8b1d-4b36-92c9-165d03bc5e12> ;
+		cim:CurrentLimit.value "1000" .
+}
+<urn:uuid:6ddafd60-de0d-11e2-8f45-b8f6b1180b6d> {
+	<urn:uuid:6ddafd60-de0d-11e2-8f45-b8f6b1180b6d> md:Model.scenarioTime "2030-01-02T09:00:00" ;
+		md:Model.created "2014-10-22T09:01:25.830" ;
+		md:Model.description "CGMES Conformity Assessment: Mini Grid Type 1 Test Configuration. The model is owned by ENTSO-E and is provided by ENTSO-E \"as it is\". To the fullest extent permitted by law, ENTSO-E shall not be liable for any damages of any kind arising out of the use of the model (including any of its subsequent modifications). ENTSO-E neither warrants, nor represents that the use of the model will not infringe the rights of third parties. Any use of the model shall include a reference to ENTSO-E. ENTSO-E web site is the only official source of information related to the model." ;
+		md:Model.version "4" ;
+		md:Model.profile "http://entsoe.eu/CIM/DiagramLayout/3/1" ;
+		md:Model.modelingAuthoritySet "http://A1.de/Planning/ENTSOE/2" ;
+		md:Model.Supersedes <urn:uuid:6fdafd60-de0d-11e2-8f45-b8f6b1180b6d> ;
+		md:Model.DependentOn <urn:uuid:2e99cbd2-9a39-11e0-aa80-0800200c9a66> , <urn:uuid:2t99cbd4-9a39-11e0-aa80-0800200c9a66> , <urn:uuid:2399cbd1-9a39-11e0-aa80-0800200c9a66> .
+	<urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> rdf:type cim:DiagramObjectStyle ;
+		cim:IdentifiedObject.name "bus-branch" .
+	<urn:uuid:15638084-e047-7b07-f847-ef105282ae25> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "L3_b" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:05597934-b248-491e-803a-68ce6290f502> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:c12e265b-0c51-a8d4-7f3a-bde1f6403f8a> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "150.20282" ;
+		cim:DiagramObjectPoint.yPosition "113.906876" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:15638084-e047-7b07-f847-ef105282ae25> .
+	<urn:uuid:1311bfed-d7e8-8c1b-8db1-017987f4ef97> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "235.123459" ;
+		cim:DiagramObjectPoint.yPosition "114.129913" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:15638084-e047-7b07-f847-ef105282ae25> .
+	<urn:uuid:9276a3de-5f56-175d-d2fa-14df2b3c8cd6> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "L3_a" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:35df6abe-3087-4c27-a90a-12b5065333f3> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:8316ff26-3162-1f17-123a-611ce3566a37> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "150.20282" ;
+		cim:DiagramObjectPoint.yPosition "75.1920242" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:9276a3de-5f56-175d-d2fa-14df2b3c8cd6> .
+	<urn:uuid:25711094-7c33-379b-ca54-caf7023d7b27> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "235.123459" ;
+		cim:DiagramObjectPoint.yPosition "75.4423752" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:9276a3de-5f56-175d-d2fa-14df2b3c8cd6> .
+	<urn:uuid:7e6aa2d5-3f6e-e2b1-a34b-017fa403cb76> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "L2" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:efdd7f46-67e6-46e3-9dcd-a3b6f8c613a4> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:343979ac-d608-4f5f-3856-b55f7d933a2e> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "292.266327" ;
+		cim:DiagramObjectPoint.yPosition "75.03438" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:7e6aa2d5-3f6e-e2b1-a34b-017fa403cb76> .
+	<urn:uuid:b4989135-fed8-22e2-111c-e1a41ddca00d> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "349.673737" ;
+		cim:DiagramObjectPoint.yPosition "74.86825" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:7e6aa2d5-3f6e-e2b1-a34b-017fa403cb76> .
+	<urn:uuid:9ec4c0af-d450-ceac-7adb-81c3bcfc9732> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "L1" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:d5d1cc4a-6297-4386-b6ce-16dc26f15feb> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:8e7ee9b5-0b48-be2b-0223-1b9bd3509b7c> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "150.20282" ;
+		cim:DiagramObjectPoint.yPosition "23.0455456" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:9ec4c0af-d450-ceac-7adb-81c3bcfc9732> .
+	<urn:uuid:7e5979f0-17da-6896-838d-082f3a5f4592> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "292.266327" ;
+		cim:DiagramObjectPoint.yPosition "23.0255718" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:9ec4c0af-d450-ceac-7adb-81c3bcfc9732> .
+	<urn:uuid:4aa0f8a9-fd5a-5c0f-77d1-aabb6c58b0a2> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "L4" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:e95a6228-ceac-4f0a-8b52-d35367b364dc> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:f0549529-af3e-0e57-f00f-30cf1e1fc994> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "235.123459" ;
+		cim:DiagramObjectPoint.yPosition "75.4423752" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:4aa0f8a9-fd5a-5c0f-77d1-aabb6c58b0a2> .
+	<urn:uuid:deaff7ad-e7b1-bb7b-5ad4-d39822b21e72> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "292.266327" ;
+		cim:DiagramObjectPoint.yPosition "75.03438" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:4aa0f8a9-fd5a-5c0f-77d1-aabb6c58b0a2> .
+	<urn:uuid:c2888318-47af-25b8-573c-8ed009a85c15> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "L6" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:56757c2b-550e-4843-886a-ed193f6eb21e> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:f527d653-acfb-8a3e-5615-d9200d9e5390> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "296.304352" ;
+		cim:DiagramObjectPoint.yPosition "137.728363" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c2888318-47af-25b8-573c-8ed009a85c15> .
+	<urn:uuid:10dbd704-4d9d-8061-a37d-7ef545ac50ff> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "356.552032" ;
+		cim:DiagramObjectPoint.yPosition "138.108719" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c2888318-47af-25b8-573c-8ed009a85c15> .
+	<urn:uuid:25d6c78a-a672-ad56-03fb-0b7da416f90a> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "L5" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:1e7f52a9-21d0-4ebe-9a8a-b29281d5bfc9> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:47397d3c-4db6-f903-852e-87660cb96e3d> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "235.123459" ;
+		cim:DiagramObjectPoint.yPosition "98.33908" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:25d6c78a-a672-ad56-03fb-0b7da416f90a> .
+	<urn:uuid:bb8cf228-00f0-d97a-b7ec-98f1213b4b4e> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "349.673737" ;
+		cim:DiagramObjectPoint.yPosition "97.54211" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:25d6c78a-a672-ad56-03fb-0b7da416f90a> .
+	<urn:uuid:5a7342a4-b601-bc3e-59bd-4db2325cb534> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "XQ1-N1" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:5150a037-e241-421f-98b2-fe60e5c90303> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:17a3ab02-0e59-97e5-8312-d3866a0ae6c6> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "71.63139" ;
+		cim:DiagramObjectPoint.yPosition "23.0277843" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:5a7342a4-b601-bc3e-59bd-4db2325cb534> .
+	<urn:uuid:b4ca7dff-e0a7-8cf0-ec9b-60fd83b7066c> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "20.8377438" ;
+		cim:DiagramObjectPoint.yPosition "23.6898479" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:5a7342a4-b601-bc3e-59bd-4db2325cb534> .
+	<urn:uuid:480ae250-a906-4f75-140e-f747b7f4562c> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "XQ2-N5" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:f32baf36-7ea3-4b6a-9452-71e7f18779f8> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:9d30611c-c828-1b96-b2ac-784b4e1082cb> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "235.123459" ;
+		cim:DiagramObjectPoint.yPosition "160.712845" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:480ae250-a906-4f75-140e-f747b7f4562c> .
+	<urn:uuid:441e3147-02b6-498b-154b-85c9d9181ddd> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "150.20282" ;
+		cim:DiagramObjectPoint.yPosition "160.934769" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:480ae250-a906-4f75-140e-f747b7f4562c> .
+	<urn:uuid:a81a62ec-5910-ae7b-c85f-7a66678e5d58> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "Q1_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:2fa56ee8-8afb-4db2-8fcf-89b9fa135bca> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:5778d71f-19bf-a0a7-8d48-600998a42f95> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "71.63139" ;
+		cim:DiagramObjectPoint.yPosition "106.778229" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:a81a62ec-5910-ae7b-c85f-7a66678e5d58> .
+	<urn:uuid:31cefd24-bb56-86b4-77c4-5baf79fb6630> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "49.51243" ;
+		cim:DiagramObjectPoint.yPosition "107.027351" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:a81a62ec-5910-ae7b-c85f-7a66678e5d58> .
+	<urn:uuid:a8ceb58a-edb9-1cbb-8912-9c7b169cf346> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "Q2_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:07865469-d39d-4234-8cee-fa998fa49bed> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:7cd81bf8-74fa-37b7-05a6-bde35e4a2b8e> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "235.123459" ;
+		cim:DiagramObjectPoint.yPosition "137.0266" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:a8ceb58a-edb9-1cbb-8912-9c7b169cf346> .
+	<urn:uuid:e656b9b1-0d26-2435-3e36-7cf0f9f91182> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "216.715332" ;
+		cim:DiagramObjectPoint.yPosition "137.125214" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:a8ceb58a-edb9-1cbb-8912-9c7b169cf346> .
+	<urn:uuid:fcd8ad7e-ef42-0182-357b-9593cda34b4f> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T3_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:1dfffea9-1fac-48f1-b466-1312643f3a47> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:a36bcce1-ccf9-bfac-a891-711f9d8082cd> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "71.63139" ;
+		cim:DiagramObjectPoint.yPosition "23.0277843" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:fcd8ad7e-ef42-0182-357b-9593cda34b4f> .
+	<urn:uuid:c3622825-e02d-5684-751a-5505af42c988> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "98.12914" ;
+		cim:DiagramObjectPoint.yPosition "23.2370853" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:fcd8ad7e-ef42-0182-357b-9593cda34b4f> .
+	<urn:uuid:7e466129-fc04-ff6c-3b27-39305277763f> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T3_1" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:d5b02a21-e6f5-441c-81f2-4accb1a56ddd> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:debe8f3f-195d-6a3f-4ad8-b6b77f3fc36f> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "150.20282" ;
+		cim:DiagramObjectPoint.yPosition "23.0455456" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:7e466129-fc04-ff6c-3b27-39305277763f> .
+	<urn:uuid:5a240d26-9d5a-19ee-849b-18cb41af6086> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "115.389259" ;
+		cim:DiagramObjectPoint.yPosition "23.2370853" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:7e466129-fc04-ff6c-3b27-39305277763f> .
+	<urn:uuid:39d18d85-bcd4-8399-c9f9-7eec2f8447e3> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T3_2" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:01a240e9-5607-4844-9d53-5c8b08b5c9a8> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:c25105a1-1825-6bfb-56b0-b2cfaab8b4a1> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "107.259094" ;
+		cim:DiagramObjectPoint.yPosition "49.02998" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:39d18d85-bcd4-8399-c9f9-7eec2f8447e3> .
+	<urn:uuid:408b5984-4062-dcae-030d-703d23493648> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "107.2134" ;
+		cim:DiagramObjectPoint.yPosition "33.4194946" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:39d18d85-bcd4-8399-c9f9-7eec2f8447e3> .
+	<urn:uuid:27492d1a-05a0-a014-2404-aa581676d065> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T4_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:eb8ed3e6-c0de-47e2-9dd5-52b321d51b70> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:4c1cd193-2c64-b4ba-2459-475164e8297a> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "107.287956" ;
+		cim:DiagramObjectPoint.yPosition "83.15697" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:27492d1a-05a0-a014-2404-aa581676d065> .
+	<urn:uuid:5d8b50ed-f2eb-9c2d-e07a-dc31b7bb5fb1> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "107.344933" ;
+		cim:DiagramObjectPoint.yPosition "97.61767" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:27492d1a-05a0-a014-2404-aa581676d065> .
+	<urn:uuid:fb224e0a-ff51-43a3-c8f4-d43578506ac6> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T4_1" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:e59d3a8c-8382-413a-95ae-6354dfe85565> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:fa9b4550-ec54-814e-34dc-1d019c7767ea> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "150.20282" ;
+		cim:DiagramObjectPoint.yPosition "113.906876" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:fb224e0a-ff51-43a3-c8f4-d43578506ac6> .
+	<urn:uuid:c5ebeb6a-a2e0-1996-bc34-420e9a718a33> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "107.344933" ;
+		cim:DiagramObjectPoint.yPosition "114.877808" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:fb224e0a-ff51-43a3-c8f4-d43578506ac6> .
+	<urn:uuid:e23bde43-e2b8-fd6d-9a70-637862a81ab3> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T4_2" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:5af3b857-165c-4f96-b415-0d6e2e9ca27f> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:1234bc1b-22f6-fbfd-84d5-1f25a62cee5f> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "71.63139" ;
+		cim:DiagramObjectPoint.yPosition "106.778229" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:e23bde43-e2b8-fd6d-9a70-637862a81ab3> .
+	<urn:uuid:abd76c87-1aec-94aa-8360-aac02d9e7497> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "97.1625" ;
+		cim:DiagramObjectPoint.yPosition "106.701958" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:e23bde43-e2b8-fd6d-9a70-637862a81ab3> .
+	<urn:uuid:0b83c95e-3a2c-b22e-1b74-3909c2a320de> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T5_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:51ac3672-026d-4257-9c68-7c7f57a9b55e> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:37107704-bef0-5a89-7717-1fa7cb595164> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "235.123459" ;
+		cim:DiagramObjectPoint.yPosition "137.0266" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:0b83c95e-3a2c-b22e-1b74-3909c2a320de> .
+	<urn:uuid:0cee07f8-35ca-5f40-a773-92348057f6bc> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "259.7483" ;
+		cim:DiagramObjectPoint.yPosition "136.973755" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:0b83c95e-3a2c-b22e-1b74-3909c2a320de> .
+	<urn:uuid:ca3e9995-df38-aab1-2e67-250929485d70> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T5_1" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:0fa430b4-d98c-43bd-9652-f61fb00e7340> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:e4f8d4cf-c2f4-acc0-dd30-116fe6ef1ff4> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "296.304352" ;
+		cim:DiagramObjectPoint.yPosition "137.728363" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:ca3e9995-df38-aab1-2e67-250929485d70> .
+	<urn:uuid:a27b15e0-c80d-0faa-ad01-94aad0e47856> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "271.924835" ;
+		cim:DiagramObjectPoint.yPosition "137.978714" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:ca3e9995-df38-aab1-2e67-250929485d70> .
+	<urn:uuid:89b7cb0b-f8e5-5cda-a36f-91db30b6ffa1> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T6_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:7145f995-b4a7-472e-9c58-2f8540ad3925> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:28bfd5aa-e746-da48-70e0-09f5dd1bfe23> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "235.123459" ;
+		cim:DiagramObjectPoint.yPosition "160.712845" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:89b7cb0b-f8e5-5cda-a36f-91db30b6ffa1> .
+	<urn:uuid:eb4e3bfd-fbb3-e2cd-a693-0f08974a9b7c> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "258.565033" ;
+		cim:DiagramObjectPoint.yPosition "160.527771" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:89b7cb0b-f8e5-5cda-a36f-91db30b6ffa1> .
+	<urn:uuid:2de0cd7a-ebae-8bca-73d5-c5b0610026f8> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T6_1" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:912cc25e-78d9-43a6-a77e-b2b7bb76688b> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:c6008c67-a9d0-ad74-ebd6-4b9e6df480d8> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "296.304352" ;
+		cim:DiagramObjectPoint.yPosition "160.608917" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:2de0cd7a-ebae-8bca-73d5-c5b0610026f8> .
+	<urn:uuid:de878a4d-4f30-d437-5616-8661386008db> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "270.741669" ;
+		cim:DiagramObjectPoint.yPosition "161.006058" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:2de0cd7a-ebae-8bca-73d5-c5b0610026f8> .
+	<urn:uuid:7f6cfcdc-dd93-a37e-6d30-75d3323ffe1c> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T2_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:a1158b5f-3b71-4c44-8b15-4150d983f73e> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:0c638c41-3eb0-5939-9cda-deef9ada4990> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "292.266327" ;
+		cim:DiagramObjectPoint.yPosition "33.2697334" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:7f6cfcdc-dd93-a37e-6d30-75d3323ffe1c> .
+	<urn:uuid:33e721b8-89e4-0128-6c87-7e51beb9af0d> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "316.375458" ;
+		cim:DiagramObjectPoint.yPosition "33.1569672" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:7f6cfcdc-dd93-a37e-6d30-75d3323ffe1c> .
+	<urn:uuid:01a63969-d9ef-63e3-65a0-95c2c43ce902> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T2_1" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:b2112f10-1057-4a28-a18d-a1952c791c4c> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:047ee88c-35e5-6d8e-b442-5ffc2b7a8326> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "353.755371" ;
+		cim:DiagramObjectPoint.yPosition "33.1569672" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:01a63969-d9ef-63e3-65a0-95c2c43ce902> .
+	<urn:uuid:64d833d3-c566-2267-e98b-26abc15faaf4> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "328.552032" ;
+		cim:DiagramObjectPoint.yPosition "33.1569672" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:01a63969-d9ef-63e3-65a0-95c2c43ce902> .
+	<urn:uuid:13ecc943-6abe-8c51-f4bb-2724f1632484> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T1_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:7fe566b9-6bac-4cd3-8b52-8f46e9ba237d> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:5ee459fd-beec-2778-d883-7d6481ef6af9> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "406.023" ;
+		cim:DiagramObjectPoint.yPosition "86.59611" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:13ecc943-6abe-8c51-f4bb-2724f1632484> .
+	<urn:uuid:46b8bcc2-8050-5e8f-cf70-9d4f2ebde27d> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "383.501038" ;
+		cim:DiagramObjectPoint.yPosition "86.59611" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:13ecc943-6abe-8c51-f4bb-2724f1632484> .
+	<urn:uuid:48997abf-f463-7f43-a13b-3e409b611345> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T1_1" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:82611054-72b9-4cb0-8621-e418b8962cb1> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:a21e5ff3-307f-1e57-fdf3-aba6c49a8072> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "349.673737" ;
+		cim:DiagramObjectPoint.yPosition "86.59611" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:48997abf-f463-7f43-a13b-3e409b611345> .
+	<urn:uuid:cd8fb843-e88f-213c-1ca0-60bed177124e> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "371.324463" ;
+		cim:DiagramObjectPoint.yPosition "86.59611" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:48997abf-f463-7f43-a13b-3e409b611345> .
+	<urn:uuid:18b0b407-66d6-9871-276f-fd9ce92631dd> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "G2_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:4dec53ca-3ea6-4bd0-a225-b559c8293e91> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:78c6e1ed-db1b-54ca-940a-8c7233ec25e3> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "353.755371" ;
+		cim:DiagramObjectPoint.yPosition "33.1569672" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:18b0b407-66d6-9871-276f-fd9ce92631dd> .
+	<urn:uuid:f829912d-b2ca-9911-0e03-d2dc647e8fee> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "370.2593" ;
+		cim:DiagramObjectPoint.yPosition "33.1280632" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:18b0b407-66d6-9871-276f-fd9ce92631dd> .
+	<urn:uuid:bbd45e6e-4616-44aa-491c-edb2b55133fe> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "G1_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:3434b50d-677d-4ad5-96d7-6c7d1be611e6> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:fc214ea7-9d8e-7c24-21f1-f9cbec106e97> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "406.023" ;
+		cim:DiagramObjectPoint.yPosition "86.59611" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:bbd45e6e-4616-44aa-491c-edb2b55133fe> .
+	<urn:uuid:2d729222-60f4-6e05-84de-03e480f45d6f> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "420.965576" ;
+		cim:DiagramObjectPoint.yPosition "86.544075" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:bbd45e6e-4616-44aa-491c-edb2b55133fe> .
+	<urn:uuid:f67d250c-45d7-7c09-fb50-4bda34d5744f> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "G3_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:9165ded7-ec43-469a-b006-554d388a63ec> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:306c8b34-acf5-76bd-7171-fad9c68efe53> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "296.304352" ;
+		cim:DiagramObjectPoint.yPosition "160.608917" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:f67d250c-45d7-7c09-fb50-4bda34d5744f> .
+	<urn:uuid:fe36fca3-fc0c-06d6-cc14-8fb99ed662eb> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "312.2202" ;
+		cim:DiagramObjectPoint.yPosition "160.592712" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:f67d250c-45d7-7c09-fb50-4bda34d5744f> .
+	<urn:uuid:9f31503a-fe0a-20f1-f655-5e41839fbc69> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "M1_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:e3420c0c-d6fc-49ee-9447-74c8e1eba64e> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:21690c73-75a5-67f4-12a7-9c7164286112> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "356.552032" ;
+		cim:DiagramObjectPoint.yPosition "143.590454" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:9f31503a-fe0a-20f1-f655-5e41839fbc69> .
+	<urn:uuid:45a0df94-7093-eb9c-aaa9-273bc113f53e> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "374.092865" ;
+		cim:DiagramObjectPoint.yPosition "143.549423" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:9f31503a-fe0a-20f1-f655-5e41839fbc69> .
+	<urn:uuid:7cabc0ad-8f23-38e3-784e-e4e84cd51726> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "M2_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:2e6ef544-c98e-44ec-a8de-8c44d2cccc33> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:a9bae9fc-9206-7855-e728-b7dc0d54ee00> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "356.552032" ;
+		cim:DiagramObjectPoint.yPosition "154.553909" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:7cabc0ad-8f23-38e3-784e-e4e84cd51726> .
+	<urn:uuid:7c20b219-2991-7942-1998-48cbf3e562ea> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "374.092865" ;
+		cim:DiagramObjectPoint.yPosition "154.745468" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:7cabc0ad-8f23-38e3-784e-e4e84cd51726> .
+	<urn:uuid:c4b31d90-dd97-2f73-1b50-20c77c7ac74a> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "ASM-1229750300_0" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:6cd98e8c-ede7-46b1-aa01-7f9f7db26416> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:fd93b98d-6333-4342-5640-c6259f45c8d6> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "356.552032" ;
+		cim:DiagramObjectPoint.yPosition "165.5174" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c4b31d90-dd97-2f73-1b50-20c77c7ac74a> .
+	<urn:uuid:a8bd52c4-551c-4732-ffad-36a0dc2b5753> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "373.902222" ;
+		cim:DiagramObjectPoint.yPosition "165.7339" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c4b31d90-dd97-2f73-1b50-20c77c7ac74a> .
+	<urn:uuid:c4ca4238-a0b9-2382-0dcc-509a6f75849b> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "1" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "59.0379028" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:6512bd43-d9ca-a6e0-2c99-0b0a82652dca> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "72.02822" ;
+		cim:DiagramObjectPoint.yPosition "5.865099" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c4ca4238-a0b9-2382-0dcc-509a6f75849b> .
+	<urn:uuid:c20ad4d7-6fe9-7759-aa27-a0c99bff6710> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "72.02822" ;
+		cim:DiagramObjectPoint.yPosition "123.9409" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c4ca4238-a0b9-2382-0dcc-509a6f75849b> .
+	<urn:uuid:e4da3b7f-bbce-2345-d777-2b0674a318d5> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "5" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "51.02041" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:2838023a-778d-faec-dc21-2708f721b788> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "235.520279" ;
+		cim:DiagramObjectPoint.yPosition "67.0572" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:e4da3b7f-bbce-2345-d777-2b0674a318d5> .
+	<urn:uuid:9a115815-4dfa-42ca-ddbd-0694a4e9bdc8> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "235.520279" ;
+		cim:DiagramObjectPoint.yPosition "169.098" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:e4da3b7f-bbce-2345-d777-2b0674a318d5> .
+	<urn:uuid:c81e728d-9d4c-2f63-6f06-7f89cc14862c> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "2" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "59.0379028" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:3c59dc04-8e88-5024-3be8-079a5c74d079> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "150.59964" ;
+		cim:DiagramObjectPoint.yPosition "9.833353" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c81e728d-9d4c-2f63-6f06-7f89cc14862c> .
+	<urn:uuid:b6d767d2-f8ed-5d21-a44b-0e5886680cb9> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "150.59964" ;
+		cim:DiagramObjectPoint.yPosition "127.909157" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c81e728d-9d4c-2f63-6f06-7f89cc14862c> .
+	<urn:uuid:eccbc87e-4b5c-e2fe-2830-8fd9f2a7baf3> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "3" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "37.1720123" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:c16a5320-fa47-5530-d958-3c34fd356ef5> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "292.663147" ;
+		cim:DiagramObjectPoint.yPosition "11.8579683" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:eccbc87e-4b5c-e2fe-2830-8fd9f2a7baf3> .
+	<urn:uuid:6364d3f0-f495-b6ab-9dcf-8d3b5c6e0b01> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "292.663147" ;
+		cim:DiagramObjectPoint.yPosition "86.2019958" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:eccbc87e-4b5c-e2fe-2830-8fd9f2a7baf3> .
+	<urn:uuid:a87ff679-a2f3-e71d-9181-a67b7542122c> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "4" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "17.7356663" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:3416a75f-4cea-9109-507c-acd8e2f2aefc> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "350.070557" ;
+		cim:DiagramObjectPoint.yPosition "68.86046" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:a87ff679-a2f3-e71d-9181-a67b7542122c> .
+	<urn:uuid:a1d0c6e8-3f02-7327-d846-1063f4ac58a6> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "350.070557" ;
+		cim:DiagramObjectPoint.yPosition "104.331787" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:a87ff679-a2f3-e71d-9181-a67b7542122c> .
+	<urn:uuid:1679091c-5a88-0faf-6fb5-e6087eb1b2dc> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "6" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "16.76385" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:7f39f831-7fbd-b198-8ef4-c628eba02591> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "296.304352" ;
+		cim:DiagramObjectPoint.yPosition "132.404785" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:1679091c-5a88-0faf-6fb5-e6087eb1b2dc> .
+	<urn:uuid:44f683a8-4163-b352-3afe-57c2e008bc8c> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "296.304352" ;
+		cim:DiagramObjectPoint.yPosition "165.93248" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:1679091c-5a88-0faf-6fb5-e6087eb1b2dc> .
+	<urn:uuid:8f14e45f-ceea-167a-5a36-dedd4bea2543> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "7" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "19.84127" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:e2c420d9-28d4-bf8c-e0ff-2ec19b371514> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "356.948883" ;
+		cim:DiagramObjectPoint.yPosition "132.363327" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:8f14e45f-ceea-167a-5a36-dedd4bea2543> .
+	<urn:uuid:32bb90e8-976a-ab52-98d5-da10fe66f21d> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "356.948883" ;
+		cim:DiagramObjectPoint.yPosition "172.045868" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:8f14e45f-ceea-167a-5a36-dedd4bea2543> .
+	<urn:uuid:180c9f6f-355b-0c2b-0e5f-51a710be2629> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "XQ1_EQIN" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "11.9047623" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:8372a156-7579-4ea5-1111-24caf0d24603> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:125ff7d3-2f33-7597-c738-e27fd7de1f7f> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "21.23457" ;
+		cim:DiagramObjectPoint.yPosition "6.777525" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:180c9f6f-355b-0c2b-0e5f-51a710be2629> .
+	<urn:uuid:c44c1ff8-47f8-d1d1-4475-b4eedf8465f5> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "21.23457" ;
+		cim:DiagramObjectPoint.yPosition "40.6021652" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:180c9f6f-355b-0c2b-0e5f-51a710be2629> .
+	<urn:uuid:1714cbac-bf14-4ca7-91e0-e04be6f3801b> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "XQ2_EQIN" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "10.7709751" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:8372a156-7579-4ea5-2222-24caf0d24603> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:a965ec53-555b-3ab1-50b0-6ec581312c56> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "150.59964" ;
+		cim:DiagramObjectPoint.yPosition "150.163757" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:1714cbac-bf14-4ca7-91e0-e04be6f3801b> .
+	<urn:uuid:9b24b6c9-34cf-19e8-81a9-cf8c47fb4956> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "150.59964" ;
+		cim:DiagramObjectPoint.yPosition "171.705719" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:1714cbac-bf14-4ca7-91e0-e04be6f3801b> .
+	<urn:uuid:c9f0f895-fb98-ab91-59f5-1fd0297e236d> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "8" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "7.207645" ;
+		cim:DiagramObject.rotation "90" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:87c0d153-e308-4b2b-92a4-4fad53ab1ff9> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:43ec517d-68b6-edd3-015b-3edc9a11367b> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "98.15391" ;
+		cim:DiagramObjectPoint.yPosition "49.02998" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c9f0f895-fb98-ab91-59f5-1fd0297e236d> .
+	<urn:uuid:9778d5d2-19c5-080b-9a6a-17bef029331c> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "112.5692" ;
+		cim:DiagramObjectPoint.yPosition "49.02998" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c9f0f895-fb98-ab91-59f5-1fd0297e236d> .
+	<urn:uuid:c1d9f50f-8682-5a1a-2302-ec2449c17196> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "H" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "7.207645" ;
+		cim:DiagramObject.rotation "90" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:03163ede-7eec-457f-8641-365982227d7c> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:106530dc-42ba-a21c-67f8-a3af4d7fd9e1> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "98.9475555" ;
+		cim:DiagramObjectPoint.yPosition "83.15697" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c1d9f50f-8682-5a1a-2302-ec2449c17196> .
+	<urn:uuid:ca2bf3f6-b7e1-8a50-8253-e9521510a4b5> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "113.362846" ;
+		cim:DiagramObjectPoint.yPosition "83.15697" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c1d9f50f-8682-5a1a-2302-ec2449c17196> .
+	<urn:uuid:65d2cab7-0438-d5e1-9241-29323956d6ec> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "HG2" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "9.637188" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:c850047a-1661-4ff2-8b9e-2673bbb55480> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "353.755371" ;
+		cim:DiagramObjectPoint.yPosition "23.5197773" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:65d2cab7-0438-d5e1-9241-29323956d6ec> .
+	<urn:uuid:2d3da1af-565e-ff76-8cb6-4054a5925f34> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "353.755371" ;
+		cim:DiagramObjectPoint.yPosition "42.7941551" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:65d2cab7-0438-d5e1-9241-29323956d6ec> .
+	<urn:uuid:f28b3e0f-81dc-180c-5466-a5eed891f28a> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "HG1" ;
+		cim:DiagramObject.offsetX "0.7936508" ;
+		cim:DiagramObject.offsetY "11.0949135" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:63c569d6-ae13-c192-76ed-69d4051ffe37> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "1" ;
+		cim:DiagramObjectPoint.xPosition "406.41983" ;
+		cim:DiagramObjectPoint.yPosition "75.5012" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:f28b3e0f-81dc-180c-5466-a5eed891f28a> .
+	<urn:uuid:f8e8e95f-0f98-547a-7486-c62b6b602798> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "2" ;
+		cim:DiagramObjectPoint.xPosition "406.41983" ;
+		cim:DiagramObjectPoint.yPosition "97.69103" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:f28b3e0f-81dc-180c-5466-a5eed891f28a> .
+	<urn:uuid:d24bade1-36bc-8cd7-7e37-395ea94226eb> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "G2" ;
+		cim:DiagramObject.offsetX "3.96825385" ;
+		cim:DiagramObject.offsetY "3.96825385" ;
+		cim:DiagramObject.rotation "270" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:2970a2b7-b840-4e9c-b405-0cb854cd2318> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:ce5bda31-011f-4cde-13e6-b43fa19f61d7> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "373.5967" ;
+		cim:DiagramObjectPoint.yPosition "32.7160454" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:d24bade1-36bc-8cd7-7e37-395ea94226eb> .
+	<urn:uuid:c0497521-d35d-6686-6e3a-f408094864c3> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "G1" ;
+		cim:DiagramObject.offsetX "3.96825385" ;
+		cim:DiagramObject.offsetY "3.96825385" ;
+		cim:DiagramObject.rotation "270" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:ca67be42-750e-4ebf-bfaa-24d446e59a22> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:62a40e1d-9880-4e00-e4ce-08d235dad846> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "424.673737" ;
+		cim:DiagramObjectPoint.yPosition "85.80246" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c0497521-d35d-6686-6e3a-f408094864c3> .
+	<urn:uuid:bc75ca3e-24ef-af83-5d94-7dbe27a95c8a> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "G3" ;
+		cim:DiagramObject.offsetX "3.96825385" ;
+		cim:DiagramObject.offsetY "3.96825385" ;
+		cim:DiagramObject.rotation "270" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:392ea173-4f8e-48fa-b2a3-5c3721e93196> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:31b90f34-a729-e9ce-3721-8c16fe921e33> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "315.928375" ;
+		cim:DiagramObjectPoint.yPosition "160.114426" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:bc75ca3e-24ef-af83-5d94-7dbe27a95c8a> .
+	<urn:uuid:f1c6eb6f-4e48-eb34-ab40-b2987d4976a8> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "M3" ;
+		cim:DiagramObject.offsetX "3.57142854" ;
+		cim:DiagramObject.offsetY "3.57142854" ;
+		cim:DiagramObject.rotation "270" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:062ece1f-ade5-4d20-9c3a-fd8f12d12ec1> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:c1ab9b93-1d19-6023-fab4-f842044c84b1> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "376.6012" ;
+		cim:DiagramObjectPoint.yPosition "142.076111" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:f1c6eb6f-4e48-eb34-ab40-b2987d4976a8> .
+	<urn:uuid:7d2ade9f-1823-8e26-07a6-5bf3d2042b15> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "M2a" ;
+		cim:DiagramObject.offsetX "3.57142854" ;
+		cim:DiagramObject.offsetY "3.57142854" ;
+		cim:DiagramObject.rotation "270" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:ba62884d-8800-41a8-9c26-698297d7ebaa> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:f9f00362-7d25-dda6-45d7-e949152c374b> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "376.6012" ;
+		cim:DiagramObjectPoint.yPosition "153.98085" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:7d2ade9f-1823-8e26-07a6-5bf3d2042b15> .
+	<urn:uuid:c4c92e23-e583-0ddf-b9cd-b2c989ebd186> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "M2b" ;
+		cim:DiagramObject.offsetX "3.57142854" ;
+		cim:DiagramObject.offsetY "3.57142854" ;
+		cim:DiagramObject.rotation "270" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:f184d87b-5565-45ee-89b4-29e8a42d3ad1> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:39f52304-4527-b46a-412f-f4117d58c475> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "376.6893" ;
+		cim:DiagramObjectPoint.yPosition "163.945572" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:c4c92e23-e583-0ddf-b9cd-b2c989ebd186> .
+	<urn:uuid:8860370a-f76c-01de-5337-d4626c2678f4> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "Q1" ;
+		cim:DiagramObject.offsetX "4.3650794" ;
+		cim:DiagramObject.offsetY "4.3650794" ;
+		cim:DiagramObject.rotation "90" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:089c1945-4101-487f-a557-66c013b748f6> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:b30aad17-e078-07db-0012-4b08edf8dcbe> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "47.7777863" ;
+		cim:DiagramObjectPoint.yPosition "106.3492" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:8860370a-f76c-01de-5337-d4626c2678f4> .
+	<urn:uuid:3bb28415-4c27-cd76-e8db-ac26517addbd> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "Q2" ;
+		cim:DiagramObject.offsetX "4.3650794" ;
+		cim:DiagramObject.offsetY "4.3650794" ;
+		cim:DiagramObject.rotation "90" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:3de9e1ad-4562-44df-b268-70ed0517e9e7> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:cf76aa25-0e02-6822-e22e-595be8cf0b36> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "214.091675" ;
+		cim:DiagramObjectPoint.yPosition "137.125214" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:3bb28415-4c27-cd76-e8db-ac26517addbd> .
+	<urn:uuid:00a36d13-46d0-dc79-6850-b0b1d919dbb6> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T5" ;
+		cim:DiagramObject.offsetX "3.96825385" ;
+		cim:DiagramObject.offsetY "7.9365077" ;
+		cim:DiagramObject.rotation "270" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:ceb5d06a-a7ff-4102-a620-7f3ea5fb4a51> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:7354f248-601c-45c3-9000-db2817f43c32> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "265.478424" ;
+		cim:DiagramObjectPoint.yPosition "137.715363" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:00a36d13-46d0-dc79-6850-b0b1d919dbb6> .
+	<urn:uuid:7137cd43-a7a6-b0dd-9272-43aaf6d6cb10> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T6" ;
+		cim:DiagramObject.offsetX "3.96825385" ;
+		cim:DiagramObject.offsetY "7.9365077" ;
+		cim:DiagramObject.rotation "270" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:6c89588b-3df5-4120-88e5-26164afb43e9> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:98fcd426-eb4a-4758-d9d7-057300e62588> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "264.295258" ;
+		cim:DiagramObjectPoint.yPosition "160.527771" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:7137cd43-a7a6-b0dd-9272-43aaf6d6cb10> .
+	<urn:uuid:71d2c46a-f01f-eeea-54a0-f541243e297b> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T2" ;
+		cim:DiagramObject.offsetX "3.96825385" ;
+		cim:DiagramObject.offsetY "7.9365077" ;
+		cim:DiagramObject.rotation "270" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:f1e72854-ec35-46e9-b614-27db354e8dbb> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:2a5c69fa-826d-f9ca-7c69-cdf3f708ca1f> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "322.8219" ;
+		cim:DiagramObjectPoint.yPosition "33.1569672" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:71d2c46a-f01f-eeea-54a0-f541243e297b> .
+	<urn:uuid:ce499dea-30cf-ce11-8f4f-e85da0227e83> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T1" ;
+		cim:DiagramObject.offsetX "3.96825385" ;
+		cim:DiagramObject.offsetY "7.9365077" ;
+		cim:DiagramObject.rotation "90" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:813365c3-5be7-4ef0-a0a7-abd1ae6dc174> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:77b1e038-4c6b-729e-e22f-8bed4c151fdd> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "377.0547" ;
+		cim:DiagramObjectPoint.yPosition "86.59611" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:ce499dea-30cf-ce11-8f4f-e85da0227e83> .
+	<urn:uuid:54b02ae9-1c8c-6b0a-ac06-9c84b9f78178> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T3" ;
+		cim:DiagramObject.offsetX "7.53968239" ;
+		cim:DiagramObject.offsetY "8.61678" ;
+		cim:DiagramObject.rotation "270" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:5d38b7ed-73fd-405a-9cdb-78425e003773> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:25ddda05-72de-b826-ac17-13ec6519dad8> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "107.2134" ;
+		cim:DiagramObjectPoint.yPosition "26.01411" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:54b02ae9-1c8c-6b0a-ac06-9c84b9f78178> .
+	<urn:uuid:f47fb721-aa55-3aad-2d0f-389c93c2d533> rdf:type cim:DiagramObject ;
+		cim:IdentifiedObject.name "T4" ;
+		cim:DiagramObject.offsetX "7.53968239" ;
+		cim:DiagramObject.offsetY "8.61678" ;
+		cim:DiagramObject.rotation "0" ;
+		cim:DiagramObject.IdentifiedObject <urn:uuid:411b5401-0a43-404a-acb4-05c3d7d0c95c> ;
+		cim:DiagramObject.Diagram <urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> ;
+		cim:DiagramObject.DiagramObjectStyle <urn:uuid:4eaf50bb-c04b-89f2-05f5-e56e744eec7a> .
+	<urn:uuid:b81007ce-f25d-be59-987e-9f3490fce96d> rdf:type cim:DiagramObjectPoint ;
+		cim:DiagramObjectPoint.sequenceNumber "0" ;
+		cim:DiagramObjectPoint.xPosition "104.5679" ;
+		cim:DiagramObjectPoint.yPosition "106.701958" ;
+		cim:DiagramObjectPoint.DiagramObject <urn:uuid:f47fb721-aa55-3aad-2d0f-389c93c2d533> .
+	<urn:uuid:e410e806-f410-3450-b721-4a38b5d75314> rdf:type cim:Diagram ;
+		cim:IdentifiedObject.name "Diagram" ;
+		cim:Diagram.orientation "negative" .
+}
+<urn:uuid:2s99cbd7-9a39-11e0-aa80-0800200c9a66_EU> {
+	<urn:uuid:2s99cbd7-9a39-11e0-aa80-0800200c9a66_EU> md:Model.scenarioTime "2030-01-02T09:00:00" ;
+		md:Model.created "2014-10-22T09:01:25.830" ;
+		md:Model.description "CGMES Conformity Assessment: Mini Grid Type 1 Test Configuration. The model is owned by ENTSO-E and is provided by ENTSO-E \"as it is\". To the fullest extent permitted by law, ENTSO-E shall not be liable for any damages of any kind arising out of the use of the model (including any of its subsequent modifications). ENTSO-E neither warrants, nor represents that the use of the model will not infringe the rights of third parties. Any use of the model shall include a reference to ENTSO-E. ENTSO-E web site is the only official source of information related to the model." ;
+		md:Model.version "4" ;
+		md:Model.profile "http://entsoe.eu/CIM/SteadyStateHypothesis/1/1" ;
+		md:Model.modelingAuthoritySet "http://A1.de/Planning/ENTSOE/2" ;
+		md:Model.Supersedes <urn:uuid:2399cbd7-9a39-11e0-aa80-0800200c9a66_EU> ;
+		md:Model.DependentOn <urn:uuid:2e99cbd2-9a39-11e0-aa80-0800200c9a66> .
+	<urn:uuid:#_8372a156-7579-4ea5-8793-24caf0d24603> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_5042af3b-8c3a-4548-b2fa-a8d655f94402> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_5492183a-1e6f-4dee-a506-f389c69f4c83> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_3d6a6b41-0ff8-418a-9530-94c6752b2db0> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_1a6456c6-fb39-42a0-b21d-089093ba7c49> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_d7f0a22b-afbc-41d2-b919-8fde5d1c5045> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_933078aa-6687-4922-bb1f-4c1457f7c26f> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_863647cc-d576-484a-bde3-e8998f9f021a> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_563c5f79-a51d-4ce8-a921-0e86dd984bb5> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_706707e5-019e-4549-b981-a857f1dfa611> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_0593fd2d-7e55-4a8d-8ddf-4f8a576cf26c> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "false" .
+	<urn:uuid:#_89df2b1b-9107-45a8-95ae-16afa04d99b3> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "false" .
+	<urn:uuid:#_616ef15c-065f-4ca2-8367-d1aad079357e> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_c39420a7-76ad-4bcc-afdf-da398485bf28> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_51ac3672-026d-4257-9c68-7c7f57a9b55e> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_0fa430b4-d98c-43bd-9652-f61fb00e7340> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_7145f995-b4a7-472e-9c58-2f8540ad3925> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_912cc25e-78d9-43a6-a77e-b2b7bb76688b> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_a1158b5f-3b71-4c44-8b15-4150d983f73e> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_b2112f10-1057-4a28-a18d-a1952c791c4c> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_7fe566b9-6bac-4cd3-8b52-8f46e9ba237d> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_82611054-72b9-4cb0-8621-e418b8962cb1> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_eb8ed3e6-c0de-47e2-9dd5-52b321d51b70> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_e59d3a8c-8382-413a-95ae-6354dfe85565> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_5af3b857-165c-4f96-b415-0d6e2e9ca27f> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_1dfffea9-1fac-48f1-b466-1312643f3a47> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_d5b02a21-e6f5-441c-81f2-4accb1a56ddd> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_01a240e9-5607-4844-9d53-5c8b08b5c9a8> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_4dec53ca-3ea6-4bd0-a225-b559c8293e91> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_3434b50d-677d-4ad5-96d7-6c7d1be611e6> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_9165ded7-ec43-469a-b006-554d388a63ec> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_e3420c0c-d6fc-49ee-9447-74c8e1eba64e> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_2e6ef544-c98e-44ec-a8de-8c44d2cccc33> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_6cd98e8c-ede7-46b1-aa01-7f9f7db26416> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_2fa56ee8-8afb-4db2-8fcf-89b9fa135bca> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_07865469-d39d-4234-8cee-fa998fa49bed> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_93346fba-8a54-4969-a063-50e4a037e1f2> rdf:type cim:ThermalGeneratingUnit ;
+		cim:GeneratingUnit.normalPF "1" .
+	<urn:uuid:#_2970a2b7-b840-4e9c-b405-0cb854cd2318> rdf:type cim:SynchronousMachine ;
+		cim:RegulatingCondEq.controlEnabled "false" ;
+		cim:RotatingMachine.p "-0" ;
+		cim:RotatingMachine.q "-0" ;
+		cim:SynchronousMachine.referencePriority "1" ;
+		cim:SynchronousMachine.operatingMode "generator" .
+	<urn:uuid:#_a318334b-6a8d-40cd-9ce2-4526873d5504> rdf:type cim:ThermalGeneratingUnit ;
+		cim:GeneratingUnit.normalPF "0" .
+	<urn:uuid:#_ca67be42-750e-4ebf-bfaa-24d446e59a22> rdf:type cim:SynchronousMachine ;
+		cim:RegulatingCondEq.controlEnabled "false" ;
+		cim:RotatingMachine.p "-5" ;
+		cim:RotatingMachine.q "-2" ;
+		cim:SynchronousMachine.referencePriority "0" ;
+		cim:SynchronousMachine.operatingMode "generator" .
+	<urn:uuid:#_f1001dea-bb33-4f34-9508-d492af527d35> rdf:type cim:ThermalGeneratingUnit ;
+		cim:GeneratingUnit.normalPF "0" .
+	<urn:uuid:#_392ea173-4f8e-48fa-b2a3-5c3721e93196> rdf:type cim:SynchronousMachine ;
+		cim:RegulatingCondEq.controlEnabled "false" ;
+		cim:RotatingMachine.p "-4" ;
+		cim:RotatingMachine.q "-3" ;
+		cim:SynchronousMachine.referencePriority "0" ;
+		cim:SynchronousMachine.operatingMode "generator" .
+	<urn:uuid:#_062ece1f-ade5-4d20-9c3a-fd8f12d12ec1> rdf:type cim:AsynchronousMachine ;
+		cim:RegulatingCondEq.controlEnabled "false" ;
+		cim:RotatingMachine.p "5" ;
+		cim:RotatingMachine.q "3" ;
+		cim:AsynchronousMachine.asynchronousMachineType "motor" .
+	<urn:uuid:#_ba62884d-8800-41a8-9c26-698297d7ebaa> rdf:type cim:AsynchronousMachine ;
+		cim:RegulatingCondEq.controlEnabled "false" ;
+		cim:RotatingMachine.p "2" ;
+		cim:RotatingMachine.q "1" ;
+		cim:AsynchronousMachine.asynchronousMachineType "motor" .
+	<urn:uuid:#_f184d87b-5565-45ee-89b4-29e8a42d3ad1> rdf:type cim:AsynchronousMachine ;
+		cim:RegulatingCondEq.controlEnabled "false" ;
+		cim:RotatingMachine.p "2" ;
+		cim:RotatingMachine.q "1" ;
+		cim:AsynchronousMachine.asynchronousMachineType "motor" .
+	<urn:uuid:#_089c1945-4101-487f-a557-66c013b748f6> rdf:type cim:ExternalNetworkInjection ;
+		cim:RegulatingCondEq.controlEnabled "false" ;
+		cim:ExternalNetworkInjection.referencePriority "0" ;
+		cim:ExternalNetworkInjection.p "0" ;
+		cim:ExternalNetworkInjection.q "0" .
+	<urn:uuid:#_3de9e1ad-4562-44df-b268-70ed0517e9e7> rdf:type cim:ExternalNetworkInjection ;
+		cim:RegulatingCondEq.controlEnabled "false" ;
+		cim:ExternalNetworkInjection.referencePriority "0" ;
+		cim:ExternalNetworkInjection.p "0" ;
+		cim:ExternalNetworkInjection.q "0" .
+	<urn:uuid:#_0522ca48-e644-4d3a-9721-22bb0abd1c8b> rdf:type cim:RatioTapChanger ;
+		cim:TapChanger.controlEnabled "false" ;
+		cim:TapChanger.step "13" .
+	<urn:uuid:#_8de2d157-15d1-42c7-b376-a8ae5b6c0e77> rdf:type cim:RatioTapChanger ;
+		cim:TapChanger.controlEnabled "false" ;
+		cim:TapChanger.step "17" .
+	<urn:uuid:#_4a8a5456-91ac-4bc9-b8e2-64eeeef78a1a> rdf:type cim:RatioTapChanger ;
+		cim:TapChanger.controlEnabled "false" ;
+		cim:TapChanger.step "17" .
+	<urn:uuid:#_04684742-c766-11e0-1111-005056c00008> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "false" .
+	<urn:uuid:#_04684742-c766-11e1-1111-005056c00008> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_04684742-c766-11e2-1111-005056c00008> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_04684742-c766-11e0-2222-005056c00008> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "false" .
+	<urn:uuid:#_04684742-c766-11e1-2222-005056c00008> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "false" .
+	<urn:uuid:#_04684742-c766-11e2-2222-005056c00008> rdf:type cim:Terminal ;
+		cim:ACDCTerminal.connected "true" .
+	<urn:uuid:#_cc268d3b-fe87-42ee-b48a-9e9d625a8650> rdf:type cim:EquivalentInjection ;
+		cim:EquivalentInjection.regulationStatus "false" ;
+		cim:EquivalentInjection.regulationTarget "0" ;
+		cim:EquivalentInjection.p "0" ;
+		cim:EquivalentInjection.q "0" .
+	<urn:uuid:#_a5a2acc5-c3cd-406c-b061-83a06bcef2f4> rdf:type cim:EquivalentInjection ;
+		cim:EquivalentInjection.regulationStatus "false" ;
+		cim:EquivalentInjection.regulationTarget "0" ;
+		cim:EquivalentInjection.p "0" ;
+		cim:EquivalentInjection.q "0" .
+	<urn:uuid:#_1f9ecd81-e069-4040-bd64-f34b0fac3a60> rdf:type cim:ControlArea ;
+		cim:ControlArea.netInterchange "0" .
+	<urn:uuid:#_10d33824-507a-4999-bd51-f73373e7509a> rdf:type cim:RegulatingControl ;
+		cim:RegulatingControl.discrete "false" ;
+		cim:RegulatingControl.enabled "true" ;
+		cim:RegulatingControl.targetDeadband "0" ;
+		cim:RegulatingControl.targetValue "10.0" ;
+		cim:RegulatingControl.targetValueUnitMultiplier "k" .
+}
+<urn:uuid:2t99cbd4-9a39-11e0-aa80-0800200c9a66> {
+	<urn:uuid:2t99cbd4-9a39-11e0-aa80-0800200c9a66> md:Model.scenarioTime "2030-01-02T09:00:00" ;
+		md:Model.created "2014-10-22T09:01:25.830" ;
+		md:Model.description "CGMES Conformity Assessment: Mini Grid Type 1 Test Configuration. The model is owned by ENTSO-E and is provided by ENTSO-E \"as it is\". To the fullest extent permitted by law, ENTSO-E shall not be liable for any damages of any kind arising out of the use of the model (including any of its subsequent modifications). ENTSO-E neither warrants, nor represents that the use of the model will not infringe the rights of third parties. Any use of the model shall include a reference to ENTSO-E. ENTSO-E web site is the only official source of information related to the model." ;
+		md:Model.version "4" ;
+		md:Model.profile "http://entsoe.eu/CIM/Topology/4/1" ;
+		md:Model.modelingAuthoritySet "http://A1.de/Planning/ENTSOE/2" ;
+		md:Model.Supersedes <urn:uuid:2399cbd4-9a39-11e0-aa80-0800200c9a66_EU> ;
+		md:Model.DependentOn <urn:uuid:2e99cbd2-9a39-11e0-aa80-0800200c9a66> , <urn:uuid:2399cbd1-9a39-11e0-aa80-0800200c9a66> .
+	<urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-1" ;
+		cim:IdentifiedObject.name "1" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:5d9d9d87-ce6b-4213-b4ec-d50de9790a59> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:ed2bd589-b6d9-42bd-82fc-0b895e8707b1> .
+	<urn:uuid:87c0d153-e308-4b2b-92a4-4fad53ab1ff9> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-2" ;
+		cim:IdentifiedObject.name "8" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:93778e52-3fd5-456d-8b10-987c3e6bc47e> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:b2a3e748-1772-409d-a61f-1d6da09564c9> .
+	<urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-3" ;
+		cim:IdentifiedObject.name "2" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:cd28a27e-8b17-4f23-b9f5-03b6de15203f> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> .
+	<urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-9" ;
+		cim:IdentifiedObject.name "HG2" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:b2707f00-2554-41d2-bde2-7dd80a669e50> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> .
+	<urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-10" ;
+		cim:IdentifiedObject.name "HG1" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:6f8ef715-bc0a-47d7-a74e-27f17234f590> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:e6b5f155-583d-46fa-90fc-0673d1afe1be> .
+	<urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-11" ;
+		cim:IdentifiedObject.name "4" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:051b93ae-9c15-4490-8cea-33395298f031> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> .
+	<urn:uuid:03163ede-7eec-457f-8641-365982227d7c> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-4" ;
+		cim:IdentifiedObject.name "H" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:93778e52-3fd5-456d-8b10-987c3e6bc47e> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:b2a3e748-1772-409d-a61f-1d6da09564c9> .
+	<urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-5" ;
+		cim:IdentifiedObject.name "3" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:347fb7af-642f-4c60-97d9-c03d440b6a82> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> .
+	<urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-6" ;
+		cim:IdentifiedObject.name "5" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:a43d15db-44a6-4fda-a525-2402ff43226f> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:a7363e0b-e9ed-424e-8984-6e74823307aa> .
+	<urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-7" ;
+		cim:IdentifiedObject.name "6" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:0d68ac81-124d-4d21-afa8-6c503feef5b8> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> .
+	<urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "Node-8" ;
+		cim:IdentifiedObject.name "7" ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:8d4a8238-5b31-4c16-8692-0265dae5e132> ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348> .
+	<urn:uuid:#_8372a156-7579-4ea5-8793-24caf0d24603> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+	<urn:uuid:#_5042af3b-8c3a-4548-b2fa-a8d655f94402> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+	<urn:uuid:#_5492183a-1e6f-4dee-a506-f389c69f4c83> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+	<urn:uuid:#_3d6a6b41-0ff8-418a-9530-94c6752b2db0> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+	<urn:uuid:#_1a6456c6-fb39-42a0-b21d-089093ba7c49> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+	<urn:uuid:#_d7f0a22b-afbc-41d2-b919-8fde5d1c5045> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+	<urn:uuid:#_933078aa-6687-4922-bb1f-4c1457f7c26f> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+	<urn:uuid:#_863647cc-d576-484a-bde3-e8998f9f021a> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+	<urn:uuid:#_563c5f79-a51d-4ce8-a921-0e86dd984bb5> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+	<urn:uuid:#_706707e5-019e-4549-b981-a857f1dfa611> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+	<urn:uuid:#_0593fd2d-7e55-4a8d-8ddf-4f8a576cf26c> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+	<urn:uuid:#_89df2b1b-9107-45a8-95ae-16afa04d99b3> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+	<urn:uuid:#_616ef15c-065f-4ca2-8367-d1aad079357e> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+	<urn:uuid:#_c39420a7-76ad-4bcc-afdf-da398485bf28> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+	<urn:uuid:#_51ac3672-026d-4257-9c68-7c7f57a9b55e> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+	<urn:uuid:#_0fa430b4-d98c-43bd-9652-f61fb00e7340> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+	<urn:uuid:#_7145f995-b4a7-472e-9c58-2f8540ad3925> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+	<urn:uuid:#_912cc25e-78d9-43a6-a77e-b2b7bb76688b> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+	<urn:uuid:#_a1158b5f-3b71-4c44-8b15-4150d983f73e> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+	<urn:uuid:#_b2112f10-1057-4a28-a18d-a1952c791c4c> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> .
+	<urn:uuid:#_7fe566b9-6bac-4cd3-8b52-8f46e9ba237d> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> .
+	<urn:uuid:#_82611054-72b9-4cb0-8621-e418b8962cb1> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+	<urn:uuid:#_eb8ed3e6-c0de-47e2-9dd5-52b321d51b70> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:03163ede-7eec-457f-8641-365982227d7c> .
+	<urn:uuid:#_e59d3a8c-8382-413a-95ae-6354dfe85565> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+	<urn:uuid:#_5af3b857-165c-4f96-b415-0d6e2e9ca27f> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+	<urn:uuid:#_1dfffea9-1fac-48f1-b466-1312643f3a47> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+	<urn:uuid:#_d5b02a21-e6f5-441c-81f2-4accb1a56ddd> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+	<urn:uuid:#_01a240e9-5607-4844-9d53-5c8b08b5c9a8> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:87c0d153-e308-4b2b-92a4-4fad53ab1ff9> .
+	<urn:uuid:#_4dec53ca-3ea6-4bd0-a225-b559c8293e91> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> .
+	<urn:uuid:#_3434b50d-677d-4ad5-96d7-6c7d1be611e6> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> .
+	<urn:uuid:#_9165ded7-ec43-469a-b006-554d388a63ec> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+	<urn:uuid:#_e3420c0c-d6fc-49ee-9447-74c8e1eba64e> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+	<urn:uuid:#_2e6ef544-c98e-44ec-a8de-8c44d2cccc33> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+	<urn:uuid:#_6cd98e8c-ede7-46b1-aa01-7f9f7db26416> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+	<urn:uuid:#_2fa56ee8-8afb-4db2-8fcf-89b9fa135bca> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+	<urn:uuid:#_07865469-d39d-4234-8cee-fa998fa49bed> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+	<urn:uuid:#_04684742-c766-11e0-1111-005056c00008> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+	<urn:uuid:#_04684742-c766-11e1-1111-005056c00008> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:8372a156-7579-4ea5-1111-24caf0d24603> .
+	<urn:uuid:#_04684742-c766-11e2-1111-005056c00008> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:8372a156-7579-4ea5-1111-24caf0d24603> .
+	<urn:uuid:#_04684742-c766-11e0-2222-005056c00008> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+	<urn:uuid:#_04684742-c766-11e1-2222-005056c00008> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:8372a156-7579-4ea5-2222-24caf0d24603> .
+	<urn:uuid:#_04684742-c766-11e2-2222-005056c00008> rdf:type cim:Terminal ;
+		cim:Terminal.TopologicalNode <urn:uuid:8372a156-7579-4ea5-2222-24caf0d24603> .
+}
+<urn:uuid:2v99cbd3-9a39-11e0-aa80-0800200c9a66_EU> {
+	<urn:uuid:2v99cbd3-9a39-11e0-aa80-0800200c9a66_EU> md:Model.scenarioTime "2030-01-02T09:00:00" ;
+		md:Model.created "2014-10-22T09:01:25.830" ;
+		md:Model.description "CGMES Conformity Assessment: Mini Grid Type 1 Test Configuration. The model is owned by ENTSO-E and is provided by ENTSO-E \"as it is\". To the fullest extent permitted by law, ENTSO-E shall not be liable for any damages of any kind arising out of the use of the model (including any of its subsequent modifications). ENTSO-E neither warrants, nor represents that the use of the model will not infringe the rights of third parties. Any use of the model shall include a reference to ENTSO-E. ENTSO-E web site is the only official source of information related to the model." ;
+		md:Model.version "4" ;
+		md:Model.profile "http://entsoe.eu/CIM/StateVariables/4/1" ;
+		md:Model.modelingAuthoritySet "http://A1.de/Planning/ENTSOE/2" ;
+		md:Model.Supersedes <urn:uuid:2399cbd3-9a39-11e0-aa80-0800200c9a66_EU> ;
+		md:Model.DependentOn <urn:uuid:2e99cbd2-9a39-11e0-aa80-0800200c9a66> , <urn:uuid:2t99cbd4-9a39-11e0-aa80-0800200c9a66> , <urn:uuid:2399cbd1-9a39-11e0-aa80-0800200c9a66> .
+	<urn:uuid:82d53d76-c381-4125-bbc3-41dab992881b> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "-0.0269991122" ;
+		cim:SvVoltage.v "380.7808" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+	<urn:uuid:e4592ec8-ee71-4df9-b8f5-f36403eba574> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "-0.0269991122" ;
+		cim:SvVoltage.v "28.558548" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:87c0d153-e308-4b2b-92a4-4fad53ab1ff9> .
+	<urn:uuid:90e23ba8-da6d-40ae-9841-1be8e6f9ac51> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "-0.0269991" ;
+		cim:SvVoltage.v "114.234268" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+	<urn:uuid:a30228f8-7a7a-43f7-869e-b95c39de72b1> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "0" ;
+		cim:SvVoltage.v "10" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> .
+	<urn:uuid:96f23553-2b3c-4559-9d18-eb075a05a85a> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "0.333089769" ;
+		cim:SvVoltage.v "20.924284" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> .
+	<urn:uuid:7bdb13a0-3d98-45d1-84b1-70deeeb2d1fc> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "0.0286383629" ;
+		cim:SvVoltage.v "114.320435" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+	<urn:uuid:8f572808-5e84-4549-a203-93d2da368729> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "-0.0269991122" ;
+		cim:SvVoltage.v "28.558548" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:03163ede-7eec-457f-8641-365982227d7c> .
+	<urn:uuid:5fe7a4c5-af81-4657-9055-3cc1e9c3b119> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "-0.005762006" ;
+		cim:SvVoltage.v "114.264847" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+	<urn:uuid:134c7662-569f-459f-88f2-569dae76b7e3> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "-0.0317877159" ;
+		cim:SvVoltage.v "114.224976" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+	<urn:uuid:cdd2da8e-086e-4532-a2e5-c17fc3c46cea> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "-0.586309433" ;
+		cim:SvVoltage.v "10.3822813" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+	<urn:uuid:54a0ebf2-669e-4e88-91ca-360f16689a1c> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "-0.781903" ;
+		cim:SvVoltage.v "10.2684526" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+	<urn:uuid:ef3622aa-7a24-44bc-89f9-c80c6c23c762> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "0" ;
+		cim:SvVoltage.v "0" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:8372a156-7579-4ea5-1111-24caf0d24603> .
+	<urn:uuid:d85f87b1-8606-4c21-814e-9a32bd2d1adb> rdf:type cim:SvVoltage ;
+		cim:SvVoltage.angle "0" ;
+		cim:SvVoltage.v "0" ;
+		cim:SvVoltage.TopologicalNode <urn:uuid:8372a156-7579-4ea5-2222-24caf0d24603> .
+	<urn:uuid:c19e4d81-7865-4b4e-83a2-4556cde7c6c4> rdf:type cim:SvPowerFlow ;
+		cim:SvPowerFlow.p "-0.08168355" ;
+		cim:SvPowerFlow.q "-0.134709477" ;
+		cim:SvPowerFlow.Terminal <urn:uuid:4dec53ca-3ea6-4bd0-a225-b559c8293e91> .
+	<urn:uuid:3a8ae728-a986-4cec-a9dd-6f9fa245f5a5> rdf:type cim:SvPowerFlow ;
+		cim:SvPowerFlow.p "-5" ;
+		cim:SvPowerFlow.q "-2" ;
+		cim:SvPowerFlow.Terminal <urn:uuid:3434b50d-677d-4ad5-96d7-6c7d1be611e6> .
+	<urn:uuid:c056b333-2501-4bef-b453-e2b43f14bd6f> rdf:type cim:SvPowerFlow ;
+		cim:SvPowerFlow.p "-4" ;
+		cim:SvPowerFlow.q "-3" ;
+		cim:SvPowerFlow.Terminal <urn:uuid:9165ded7-ec43-469a-b006-554d388a63ec> .
+	<urn:uuid:1422fa90-96f3-42d0-ab77-909695c2d44b> rdf:type cim:SvPowerFlow ;
+		cim:SvPowerFlow.p "5" ;
+		cim:SvPowerFlow.q "3" ;
+		cim:SvPowerFlow.Terminal <urn:uuid:e3420c0c-d6fc-49ee-9447-74c8e1eba64e> .
+	<urn:uuid:7b895642-6649-4a67-9dc6-c1add4b38b9c> rdf:type cim:SvTapStep ;
+		cim:SvTapStep.position "13" ;
+		cim:SvTapStep.TapChanger <urn:uuid:0522ca48-e644-4d3a-9721-22bb0abd1c8b> .
+	<urn:uuid:a4670f5d-6946-4606-a890-4ba4769ed6f8> rdf:type cim:SvTapStep ;
+		cim:SvTapStep.position "17" ;
+		cim:SvTapStep.TapChanger <urn:uuid:8de2d157-15d1-42c7-b376-a8ae5b6c0e77> .
+	<urn:uuid:d57cd011-6f53-4afc-a3eb-053ef886bb83> rdf:type cim:SvTapStep ;
+		cim:SvTapStep.position "17" ;
+		cim:SvTapStep.TapChanger <urn:uuid:4a8a5456-91ac-4bc9-b8e2-64eeeef78a1a> .
+	<urn:uuid:b04d49a2-66ae-4e88-ba6d-d7803695d737> rdf:type cim:SvPowerFlow ;
+		cim:SvPowerFlow.p "2" ;
+		cim:SvPowerFlow.q "1" ;
+		cim:SvPowerFlow.Terminal <urn:uuid:2e6ef544-c98e-44ec-a8de-8c44d2cccc33> .
+	<urn:uuid:414fd640-fd55-4a75-9379-ca9a57e555a2> rdf:type cim:SvPowerFlow ;
+		cim:SvPowerFlow.p "2" ;
+		cim:SvPowerFlow.q "1" ;
+		cim:SvPowerFlow.Terminal <urn:uuid:6cd98e8c-ede7-46b1-aa01-7f9f7db26416> .
+	<urn:uuid:a18af151-1783-48f5-8461-8d6090dab1f9> rdf:type cim:SvPowerFlow ;
+		cim:SvPowerFlow.p "0" ;
+		cim:SvPowerFlow.q "0" ;
+		cim:SvPowerFlow.Terminal <urn:uuid:04684742-c766-11e2-1111-005056c00008> .
+	<urn:uuid:0ef5bd86-e3b4-4bcd-bd58-1dfef25bad29> rdf:type cim:SvPowerFlow ;
+		cim:SvPowerFlow.p "0" ;
+		cim:SvPowerFlow.q "0" ;
+		cim:SvPowerFlow.Terminal <urn:uuid:04684742-c766-11e2-2222-005056c00008> .
+	<urn:uuid:f905ea2d-f986-4d3b-be05-d2f4257ca17f> rdf:type cim:TopologicalIsland ;
+		cim:IdentifiedObject.name "0" ;
+		cim:TopologicalIsland.AngleRefTopologicalNode <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> ;
+		cim:TopologicalIsland.TopologicalNodes <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> , <urn:uuid:87c0d153-e308-4b2b-92a4-4fad53ab1ff9> , <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> , <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> , <urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> , <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> , <urn:uuid:03163ede-7eec-457f-8641-365982227d7c> , <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> , <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> , <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> , <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+}

@@ -1,0 +1,110 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix md: <http://iec.ch/TC57/61970-552/ModelDescription/1#> .
+@prefix cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#> .
+
+<urn:uuid:2399cbd0-9a39-11e0-aa80-0800200c9a66> {
+	<urn:uuid:2399cbd0-9a39-11e0-aa80-0800200c9a66> md:Model.scenarioTime "2030-01-02T09:00:00" ;
+		md:Model.created "2014-10-22T09:01:25.830" ;
+		md:Model.description "CGMES Conformity Assessment: Mini Grid Test Configuration. The model is owned by ENTSO-E and is provided by ENTSO-E \"as it is\". To the fullest extent permitted by law, ENTSO-E shall not be liable for any damages of any kind arising out of the use of the model (including any of its subsequent modifications). ENTSO-E neither warrants, nor represents that the use of the model will not infringe the rights of third parties. Any use of the model shall include a reference to ENTSO-E. ENTSO-E web site is the only official source of information related to the model." ;
+		md:Model.version "4" ;
+		md:Model.profile "http://entsoe.eu/CIM/EquipmentBoundary/3/1" , "http://entsoe.eu/CIM/EquipmentBoundaryOperation/3/1" ;
+		md:Model.modelingAuthoritySet "http://entsoe.eu/Boundary/CGMES" .
+	<urn:uuid:fe97b80b-3e0e-4a2c-964b-bc29b0dda632> rdf:type cim:BaseVoltage ;
+		cim:IdentifiedObject.description "BV 110 kV" ;
+		cim:IdentifiedObject.name "BV_110" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "BV110" ;
+		cim:BaseVoltage.nominalVoltage "110" .
+	<urn:uuid:e9277658-07e5-4e84-aef8-a891d14e7c54> rdf:type cim:BaseVoltage ;
+		cim:IdentifiedObject.description "BV 380 kV" ;
+		cim:IdentifiedObject.name "BV_380" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "BV380" ;
+		cim:BaseVoltage.nominalVoltage "380" .
+	<urn:uuid:183d126d-2522-4ff2-a8cd-c5016cf09c1b> rdf:type cim:ConnectivityNode ;
+		cim:IdentifiedObject.description "OHL 380 kV" ;
+		cim:IdentifiedObject.name "XQ1_EQIN" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> "10T-Z1-Z2-XQ01CN" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> "Z1" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> "Z1Wes" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> "Z1TI" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> "Z2" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> "Z2Brs" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> "Z2DE" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> "true" ;
+		cim:ConnectivityNode.ConnectivityNodeContainer <urn:uuid:41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3> ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "CN1" .
+	<urn:uuid:49831d24-33e9-4233-8424-3f88186a924e> rdf:type cim:ConnectivityNode ;
+		cim:IdentifiedObject.description "OHL_and_CAB 110 kV" ;
+		cim:IdentifiedObject.name "XQ2_EQIN" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> "10T-Z1-Z2-XQ02CN" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndIsoCode> "Z1" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndName> "Z1Teg" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.fromEndNameTso> "Z1Energine" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndIsoCode> "Z2" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndName> "Z2arp" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.toEndNameTso> "Z2Sven" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#ConnectivityNode.boundaryPoint> "true" ;
+		cim:ConnectivityNode.ConnectivityNodeContainer <urn:uuid:c3f46fe5-0cd1-4a1c-b722-e967b9ab21e2> ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "CN2" .
+	<urn:uuid:b4530622-ddd6-4d0e-9127-939adc037ec4> rdf:type cim:GeographicalRegion ;
+		cim:IdentifiedObject.name "EU" ;
+		cim:IdentifiedObject.description "Geographical Region of EU" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> "10Y-CB-EU-00001E" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "EU" .
+	<urn:uuid:c3f46fe5-0cd1-4a1c-b722-e967b9ab21e2> rdf:type cim:Line ;
+		cim:IdentifiedObject.name "TieLine_XMO_TE31" ;
+		cim:Line.Region <urn:uuid:f00d3f9e-f076-45f6-b0ef-00f756352976> ;
+		cim:IdentifiedObject.description "1" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "l1" .
+	<urn:uuid:41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3> rdf:type cim:Line ;
+		cim:IdentifiedObject.name "TieLine_XWE_BR21" ;
+		cim:Line.Region <urn:uuid:f00d3f9e-f076-45f6-b0ef-00f756352976> ;
+		cim:IdentifiedObject.description "1" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "l2" .
+	<urn:uuid:f00d3f9e-f076-45f6-b0ef-00f756352976> rdf:type cim:SubGeographicalRegion ;
+		cim:IdentifiedObject.name "ENTSO-E" ;
+		cim:SubGeographicalRegion.Region <urn:uuid:b4530622-ddd6-4d0e-9127-939adc037ec4> ;
+		cim:IdentifiedObject.description "SubGeographical Region of ENTSO-E" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> "10Y-CB-ENTSO-001" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "ENTSO-E" .
+}
+<urn:uuid:2399cbd1-9a39-11e0-aa80-0800200c9a66> {
+	<urn:uuid:2399cbd1-9a39-11e0-aa80-0800200c9a66> md:Model.scenarioTime "2030-01-02T09:00:00" ;
+		md:Model.created "2014-10-22T09:01:25.830" ;
+		md:Model.description "CGMES Conformity Assessment: Mini Grid Test Configuration. The model is owned by ENTSO-E and is provided by ENTSO-E \"as it is\". To the fullest extent permitted by law, ENTSO-E shall not be liable for any damages of any kind arising out of the use of the model (including any of its subsequent modifications). ENTSO-E neither warrants, nor represents that the use of the model will not infringe the rights of third parties. Any use of the model shall include a reference to ENTSO-E. ENTSO-E web site is the only official source of information related to the model." ;
+		md:Model.version "4" ;
+		md:Model.profile "http://entsoe.eu/CIM/TopologyBoundary/3/1" ;
+		md:Model.modelingAuthoritySet "http://entsoe.eu/Boundary/CGMES" ;
+		md:Model.DependentOn <urn:uuid:2399cbd0-9a39-11e0-aa80-0800200c9a66> .
+	<urn:uuid:8372a156-7579-4ea5-1111-24caf0d24603> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "OHL 380 kV" ;
+		cim:IdentifiedObject.name "XQ1_EQIN" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndIsoCode> "Z1" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndName> "Z1Wes" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndNameTso> "Z1TI" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndIsoCode> "Z2" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndName> "Z2Brs" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndNameTso> "Z2DE" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.boundaryPoint> "true" ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:e9277658-07e5-4e84-aef8-a891d14e7c54> ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3> ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> "10T-Z1-Z2-XQ0001" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "XQ1" .
+	<urn:uuid:8372a156-7579-4ea5-2222-24caf0d24603> rdf:type cim:TopologicalNode ;
+		cim:IdentifiedObject.description "OHL_and_CAB 110 kV" ;
+		cim:IdentifiedObject.name "XQ2_EQIN" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndIsoCode> "Z1" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndName> "Z1Teg" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.fromEndNameTso> "Z1Energine" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndIsoCode> "Z2" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndName> "Z2arp" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.toEndNameTso> "Z2Sven" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#TopologicalNode.boundaryPoint> "true" ;
+		cim:TopologicalNode.BaseVoltage <urn:uuid:fe97b80b-3e0e-4a2c-964b-bc29b0dda632> ;
+		cim:TopologicalNode.ConnectivityNodeContainer <urn:uuid:c3f46fe5-0cd1-4a1c-b722-e967b9ab21e2> ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.energyIdentCodeEic> "10T-Z1-Z2-XQ0002" ;
+		<http://entsoe.eu/CIM/SchemaExtension/3/1#IdentifiedObject.shortName> "XQ2" .
+	<urn:uuid:#_183d126d-2522-4ff2-a8cd-c5016cf09c1b> rdf:type cim:ConnectivityNode ;
+		cim:ConnectivityNode.TopologicalNode <urn:uuid:8372a156-7579-4ea5-1111-24caf0d24603> .
+	<urn:uuid:#_49831d24-33e9-4233-8424-3f88186a924e> rdf:type cim:ConnectivityNode ;
+		cim:ConnectivityNode.TopologicalNode <urn:uuid:8372a156-7579-4ea5-2222-24caf0d24603> .
+}
