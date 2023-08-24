@@ -1,0 +1,343 @@
+BASE <http://iec.ch/TC57/2013/CIM-schema-cim16#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#>
+PREFIX entsoe: <http://entsoe.eu/CIM/SchemaExtension/3/1#>
+
+WITH <urn:uuid:2399cbd4-9a39-11e0-aa80-0800200c9a66_EU>
+INSERT {
+	<urn:uuid:567fee6b-56e6-4cee-b2a3-28098764bdcb> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:1d9f1b8a-8d53-440a-b97d-71772e193e9f> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+
+	<urn:uuid:528967db-59db-4208-b580-f184fe9d32c1> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+
+	<urn:uuid:69e9878c-fce1-4ce3-8535-0c4337e9fd0a> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+
+	<urn:uuid:368c0e1a-6dff-4929-81db-19d77f04b242> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+
+	<urn:uuid:0f82294a-5cb0-4395-b79a-514c7de478bf> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:cd84fa40-ef63-422d-8ee0-d0a0f806719e> .
+
+	<urn:uuid:8adb739f-8939-4e87-8d3e-c958aa49c187> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:08d61cd0-994d-4ff9-89fe-3cd6ee25b71c> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:add7e168-c993-4dfa-b58e-7da15280f6f9> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:138c9c5b-9472-4831-ad22-f1b7b319b0a3> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:ec8c3b42-d70c-41d6-89f4-f2df958817c8> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:e2f8de8c-3191-4676-9ee7-f920e46f9085> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:2d51a1ee-8a92-4c14-8f13-586427c86626> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:67581d4c-d6b7-4679-a655-33c9cef2cb1b> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:0cc10ecd-426c-4aa9-8a40-541c79204113> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:9e585839-b83e-4f53-95f7-2fe60dea9e67> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:d3de846d-5271-465e-8558-3e736fa120c4> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:ddc31fd5-e9be-481b-a426-f3970c0b51e2> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:9232947a-f81f-472a-ac61-fa1b3f22b740> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:ba98fd7b-b3e5-4b37-b218-df5f1e08ead5> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:c4cea32b-2ea1-4be3-9040-2a29cf7a48f1> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:b15dabdc-4466-4ce6-a546-4b3579a079f8> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:5de48674-41f7-4a17-8055-320eab5b638e> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:cc636acd-3f39-4641-829e-dc401eb03569> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:6ea87619-9cd4-4d25-8876-e39ffb092138> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:c099d321-32a7-4cf9-8680-00d2f7d5eabf> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:955134c9-51cb-4e7c-a960-587c16111331> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:064ae2ca-de5b-41a6-a3a4-86ddd1136880> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:c4e14a0e-16c4-4b46-8d2d-b45ff7585057> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:9bab684d-c68a-4d54-8884-5b36faf7fcbe> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:e4fa17b2-d2a2-4a57-a74e-a382c8092187> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:1cf8ec46-dde1-454e-9e98-38aeb059a1c5> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:05c02066-7ded-48d7-b787-da1d2e77f81c> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:86e78ed5-cbc9-4c9a-b929-da282b4f6f72> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:f2f0151f-d02a-4ff6-bf16-b8fd2f7738f7> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:1925701d-9d85-4f19-86e4-cb7a75453f59> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:efdda81c-b0f4-4be2-85fb-45c6be439789> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:d74ef9c4-2df3-4ee6-a3b0-47de684c6852> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:d09c63da-d5f4-4d89-a757-c7426a4b81d2> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:ccb7c358-3422-42b1-808b-b46c0201fdd7> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:9b8c8eea-fa50-4e84-96eb-cfc03a3fc5b6> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:473b9f45-3071-4fef-a90b-43a8c4eddeae> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:a2f94dfc-c3c3-4dbf-95b8-8435ca5eaf74> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:40bb040b-2375-471e-84b5-b8f177e897d7> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:d9649b2e-0a9c-424e-b3b2-31dbd41bee4f> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:583e0eed-a939-4d54-bebe-0d133bdf3c42> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:858bc635-8899-4f15-aacd-7ed65ed24696> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:cc81766a-a254-432f-b9a2-e22225f529f7> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:2025cf6e-0135-4085-ac63-3d232ea808cf> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:289cda9a-53df-441b-a05a-fa90cdd44d94> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:b662305d-ac49-4c92-8a1d-ea3036616328> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:189fdb29-586a-4bda-a2d0-ce4a1e11a892> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:364f4b8f-8a34-477a-8b25-fd3a8666ae59> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:edfce3cd-e2e1-49eb-9660-7fe920b96c57> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:18e79ca1-d405-4df2-baab-056c46c503d9> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:08fb7cc1-82f4-4b13-b3ed-a46da751fd17> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:959b2f06-3e1d-454c-b756-7ec0271f9ff6> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:c2000fc5-2a1a-4f5a-9569-aa209ee018cb> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:aa1c1321-a0f2-4f06-b84a-b9da17f10459> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:29c4f110-c71b-4baa-8bd1-dd193606b955> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:41c16bf5-7747-424e-812e-06ab372aec9d> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:ac6c4351-848e-43c1-aac9-8eab63bd6347> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:71f091ea-9081-40c2-9e8c-49111b408dcf> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:463aee41-aaef-4a6e-bea6-a67f5a0fcbdd> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:461cffe9-5b6d-4726-bbae-eb8f7abb4b3c> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:c575585e-bce8-4d2d-b211-a28f7ed6e07f> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:764e0b8a-f2af-4092-b6aa-b4a19e55db98> .
+
+	<urn:uuid:5781553c-c3c7-48af-9835-8ccdd12a34af> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:17933347-a362-481d-abd6-9ea6bd8aae8f> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:74fb7acb-29d3-4402-8f1d-f393a0cade37> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c8726716-e182-4373-b83e-8f60070078cb> .
+
+	<urn:uuid:a662bdaf-fbb3-4801-b12a-ace07d246e9f> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> .
+
+	<urn:uuid:c347ba7b-5eca-4de0-8487-3489436ec008> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> .
+
+	<urn:uuid:a9d648ce-5c97-40cf-8a48-c26b1bd2987f> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> .
+
+	<urn:uuid:c8dfe7f5-344f-45fe-89bf-91c30ef3f780> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> .
+
+	<urn:uuid:2ad1f76e-e884-41d8-a50e-7f798b8e2df7> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c7eda3d2-e92d-4935-8166-5e045d3de045> .
+
+	<urn:uuid:7dbc4e44-5c8e-4b22-a80c-4269fdaa7581> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> .
+
+	<urn:uuid:7a6a78cb-5c02-4706-a5ba-020d7d5369d5> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> .
+
+	<urn:uuid:6b3b2259-cac2-4b68-9ed0-2c8c4f769984> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> .
+
+	<urn:uuid:3155f5d4-637d-470d-bbdb-c25bd1d24355> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> .
+
+	<urn:uuid:7f102715-e610-4fe6-8557-ba49b1bb5be5> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:7f5515b2-ca6b-45af-93ee-f196686f0c66> .
+
+	<urn:uuid:eaa17022-1f42-46ca-b431-12b3f8008a6b> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:47e5b82b-8879-4619-aa11-aea30583af34> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:de0ba159-8462-4173-8690-782b1c8887f7> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:c0adab49-d445-4609-a1a3-ebe4ef297cc8> .
+
+	<urn:uuid:4506d630-5c09-449c-b3a1-8c3899b6a83e> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:03163ede-7eec-457f-8641-365982227d7c> .
+
+	<urn:uuid:c83f924b-18d1-4cb9-a91d-616e8b347ac2> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:03163ede-7eec-457f-8641-365982227d7c> .
+
+	<urn:uuid:ba946d59-902f-403c-a4c2-5ebd4e1a5028> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:03163ede-7eec-457f-8641-365982227d7c> .
+
+	<urn:uuid:2e7c2f66-84ec-42d9-a05f-f49338e0e602> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:03163ede-7eec-457f-8641-365982227d7c> .
+
+	<urn:uuid:0ded970c-cec5-45ac-90d6-eaafcb208874> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:03163ede-7eec-457f-8641-365982227d7c> .
+
+	<urn:uuid:c6879353-6561-4464-a4c2-46e7f208bb4a> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:cd4cf95a-19cc-4636-a300-59d3f000bced> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:ccf6d0de-5af6-4b10-a11c-76f99fe18508> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:4e34639c-5785-4ef6-811f-b0d237530ffb> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:5abad0fd-8229-4c16-867c-7cc6b31a91d1> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:767d214f-4170-404f-b49a-5d979e90010e> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:7d8eae2a-2efb-41d1-8bb3-20a267f28461> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:bddd7013-7e34-414c-87da-8e1178fdc256> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:20c8c63c-73fb-4613-a9cb-8f4ab940aa5d> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:e68b682a-53a1-47d3-9d6e-eb4197b52c73> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:f1fdcc78-2ff9-4118-8191-77e88dabfa22> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:7b5a5ef4-1e93-4f6d-be70-5357373e07ff> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:bf1b9dd9-a46d-4479-894d-6fee84283c8f> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:59c6d51f-4520-4b53-922e-14dec1fdeab4> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:b3d3b4ad-02af-4490-8748-70f6c9a23734> .
+
+	<urn:uuid:9e981bec-a029-4692-a205-66aec553ed46> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:87c0d153-e308-4b2b-92a4-4fad53ab1ff9> .
+
+	<urn:uuid:5cc19236-ff11-44e9-a321-dc932b96ec2f> rdf:type <Terminal> ;
+		<Terminal.TopologicalNode> <urn:uuid:87c0d153-e308-4b2b-92a4-4fad53ab1ff9> .
+
+	<urn:uuid:17ccac3a-66be-4ac4-98e8-0ead95b0ed11> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:87c0d153-e308-4b2b-92a4-4fad53ab1ff9> .
+
+	<urn:uuid:9e865f24-441f-4e2f-b46d-94e0b37a547d> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:87c0d153-e308-4b2b-92a4-4fad53ab1ff9> .
+
+	<urn:uuid:0ccf291a-eadf-4010-a26c-f691a135118f> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:87c0d153-e308-4b2b-92a4-4fad53ab1ff9> .
+
+	<urn:uuid:24fea3e7-7042-48f9-9a60-59d4b4cc3771> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:28c3b78e-8a19-44ce-9a4e-e932fcf67a51> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:a60c40a3-2ef6-41b7-8ca2-08594f75eb63> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:adee76cd-b2b9-48ac-8fd4-0d205a435f59> .
+
+	<urn:uuid:87c33625-a21c-46df-8723-ce0c4e26ca15> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:0a5ec602-62ef-48ff-bb40-4bf99dd5e7d0> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+
+	<urn:uuid:8a5d6181-9f2e-4818-b3d6-dcca06db5e5e> rdf:type <ConnectivityNode> ;
+		<ConnectivityNode.TopologicalNode> <urn:uuid:37edd845-456f-4c3e-98d5-19af0c1cef1e> .
+}

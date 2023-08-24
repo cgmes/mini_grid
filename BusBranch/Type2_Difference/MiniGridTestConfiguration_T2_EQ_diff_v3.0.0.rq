@@ -1,0 +1,14 @@
+BASE <http://iec.ch/TC57/2013/CIM-schema-cim16#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX cim: <http://iec.ch/TC57/2013/CIM-schema-cim16#>
+PREFIX entsoe: <http://entsoe.eu/CIM/SchemaExtension/3/1#>
+
+WITH <urn:uuid:2399cbd2-9a39-11e0-aa80-0800200c9a66_EU>
+DELETE {
+	<urn:uuid:c98e36e1-a53a-384c-357e-ab34d9335d77> rdf:type rdf:Description ;
+		<TransformerEnd.grounded> "true" .
+}
+INSERT {
+	<urn:uuid:c98e36e1-a53a-384c-357e-ab34d9335d77> rdf:type rdf:Description ;
+		<TransformerEnd.grounded> "false" .
+}
